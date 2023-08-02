@@ -7,7 +7,7 @@ In this context, the multiplier is determined by the quantity of coins in a UTXO
 
 1. **Calculate the Age Percentage for Each UTXO**: Determine the age of each UTXO by examining the number of confirmations. The age maxes out at 10080 confirmations, so the age percentage for each UTXO would be:
 
-   $\text{Age percentage} = \min\left(\frac{\text{Number of confirmations for UTXO}}{10080} \times 100, 100\right)$
+    $\text{Age percentage} = \frac{\min\left(\text{Number of confirmations for UTXO}, 10080\right)}{10080} \times 100$
 
    Here, we're using the minimum function to ensure that the age percentage doesn't exceed 100%. If the number of confirmations exceeds 10080, the age percentage is capped at 100%.
 
