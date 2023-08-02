@@ -5,9 +5,11 @@ Coinage is a critical factor in hybrid Proof of Work (PoW)/Proof of Stake (PoS) 
 In this context, the multiplier is determined by the quantity of coins in a UTXO, also known as the weight. The process to calculate the average age of UTXOs, considering their weight, can be formalized as follows:
 
 
-1. **Calculate the Age Percentage for Each UTXO**: Determine the age of each UTXO by examining the number of confirmations. You mentioned that the age maxes out at 10080 confirmations, so the age percentage for each UTXO would be:
-   
-    $\text{Age percentage} = \frac{\text{Number of confirmations for UTXO}}{10080} \times 100$
+1. **Calculate the Age Percentage for Each UTXO**: Determine the age of each UTXO by examining the number of confirmations. The age maxes out at 10080 confirmations, so the age percentage for each UTXO would be:
+
+   $\text{Age percentage} = \min\left(\frac{\text{Number of confirmations for UTXO}}{10080} \times 100, 100\right)$
+
+   Here, we're using the minimum function to ensure that the age percentage doesn't exceed 100%. If the number of confirmations exceeds 10080, the age percentage is capped at 100%.
 
 2. **Calculate the Weighted Age Percentage for Each UTXO**: Multiply the age percentage by the coin quantity for that UTXO:
    
