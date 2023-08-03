@@ -42,4 +42,4 @@ The calculations would be as follows:
 
 This result means that, on average, the coins are 75% "aged" based on the confirmation counts.
 
-However, what does this mean? It means you cannot game the systems and that everyone has fairer chances by math and from the smallest coin owner competing to mine a block to a larger coin owner trying to mine a block. This further increases the fairness based upon your probability of mining and discourages actions that benefit few present in coinage-less options or the gamification hacks in long-term coinage. 
+However, what does this mean? It means you cannot game the systems, and everyone has fairer chances by math, from the smallest coin owner to the largest, all competing to mine a block. This further increases the fairness based upon your probability of mining and discourages actions that benefit few present in coinage-less options or the gamification hacks in long-term coinage. 
