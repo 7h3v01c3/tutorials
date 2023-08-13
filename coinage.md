@@ -1,6 +1,6 @@
-# COIN AGE and how its calculated
+# COIN AGE and how it's calculated in Divi Blockchain
 
-COIN AGE is a critical factor in some hybrid Proof of Work (PoW)/Proof of Stake (PoS) mining protocols, serving as a mechanism to discourage malicious activities and promote fairness within the system. This approach draws inspiration from Satoshi's original concept but implements a virtualized mining process that embraces the beneficial competitive nature of PoW while introducing a multiplier to the calculations and a notarization process which finalizes the PoS work.
+The goal of COIN AGE is to promote fairness. COIN AGE is a critical factor in Divi's hybrid Proof of Work (PoW)/Proof of Stake (PoS) mining protocol, serving as a mechanism to discourage malicious activities and promote fairness within the system. This approach draws inspiration from Satoshi's original concept. Still, it implements a virtualized mining process that embraces the beneficial competitive nature of PoW while introducing a multiplier to the calculations and a notarization process that finalizes the PoS work.
 
 In this context, the multiplier is determined by the quantity of coins in a UTXO, also known as the weight. The process to calculate the average age of UTXOs, considering their weight, can be formalized as follows:
 
