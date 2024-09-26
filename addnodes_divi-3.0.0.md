@@ -1,5 +1,7 @@
 **How to Manually Add Nodes in Divi Desktop – Windows Tutorial**
 
+*Make sure the Divi Desktop Application is closed before starting*
+
 Hi everyone! In today’s tutorial, I’ll walk you through the process of manually adding nodes to the Divi Desktop wallet using Notepad. This is a temporary fix for those experiencing syncing issues . Let’s get started!
 
 ### Step 1: Create a New Notepad Document
