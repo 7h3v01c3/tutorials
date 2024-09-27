@@ -104,7 +104,3 @@ If the commands respond with version information, the installation is complete, 
   - `divi-tx`
 
 Ensure the directory structure is correct before moving the daemons, and that all files have proper permissions for execution.
-
----
-
-This guide now gives macOS users both **Terminal** and **Finder** options, providing flexibility based on their comfort level with the tools. Let me know if this works for you!
