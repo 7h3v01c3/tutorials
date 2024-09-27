@@ -16,7 +16,7 @@ Once downloaded, extract the contents of the tarball:
    tar -xzvf divi-3.0.0-x86_64-linux-gnu-9e2f76c.tar.gz
    ```
 
-This will extract the Divi daemons (`divid`, `divi-cli`, `divi-tx`) into the current directory.
+This will extract the Divi daemons (`divid`, `divi-cli`, `divi-tx`) into the current inside `divi-3.0.0/bin`
 
 #### Step 3: Move Daemons to the Correct Location
 Now, we need to move the daemons into the `.config/divi-desktop` directory in your home folder. Create the necessary directories, move the files, and ensure they're correctly nested.
