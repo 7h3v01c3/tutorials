@@ -4,23 +4,22 @@
 
 Hi everyone! In today’s tutorial, I’ll guide you through manually adding nodes to the Divi Desktop wallet using TextEdit on macOS. This is a temporary fix for those experiencing syncing issues. Let’s dive in!
 
-### Step 1: Create a New TextEdit Document
+### Step 1: Create and Save Your Node List
 
 1. **Open TextEdit** on your Mac.
-   - You can find it by searching for “TextEdit” in Spotlight (Command + Space).
-   
-2. **Create a new document** and ensure the format is set to plain text. You can do this by going to **Format > Make Plain Text**.
+   - You can easily find it by using **Spotlight** (press **Command + Space** and search for "TextEdit").
 
-3. **Save the file** as `addnodes.txt`.  
-   - Save it somewhere easy to find, like your Desktop.
+2. **Set the document to plain text**. Go to the **Format** menu and select **Make Plain Text** (or press **Shift + Command + T**).
 
-4. **Add the following line at the top** of the document:
+3. **Add the following line** at the top of the document:
    ```
    syncnodes=0
    ```
 
-This command temporarily disables automatic node addition and allows you to manually input peers.
+4. **Save the file** as `addnodes.txt`.  
+   - Save it in an easy-to-find location, like your Desktop.
 
+Now that the file is created, let's move on to gathering the nodes.
 ---
 
 ### Step 2: Get the List of Active Nodes
