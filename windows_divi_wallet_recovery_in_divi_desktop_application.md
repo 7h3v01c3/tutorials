@@ -47,16 +47,18 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
 1. Open a run dialog box with `Windows Key + R`.  
 2. Enter `cmd` and click OK.  
 3. Navigate to the daemon using the path provided:
+   Either type this into your command window or paste it and hit enter.
     ```
     cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
     ```
-4. Enter the recovery command with your seed words:
+5. Enter the recovery command with your seed words:
+   At the command line now enter the following comman, below is the syntax.
     ```
     divid.exe -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1
     ```
     Replace `word1` through `word12` with your seed word phrase, all lowercase, with a single space between each word.
 
-5. Wait a few moments, then open the Divi Desktop Application.
+6. Wait a few moments, then open the Divi Desktop Application.
 
 ---
 
