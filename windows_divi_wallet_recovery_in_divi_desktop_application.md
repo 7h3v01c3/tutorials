@@ -60,7 +60,7 @@ After renaming move to 5.
 
 ## Final Steps:
 
-1. Let the app sync completely and wait for your coins to appear in the balance.
+1. Let the Divi Desktop Application sync completely and wait for your coins to appear in the Total Balance, on top left.
 2. Close the Divi Desktop Application.
 3. Close the Windows Terminal.
 
