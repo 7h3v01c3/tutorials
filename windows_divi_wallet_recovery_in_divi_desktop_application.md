@@ -34,8 +34,9 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
 3. Navigate to the **DIVI** folder (not Divi Desktop).  
 4. Rename `wallet.dat` to `wallet_backup.dat`.  
    *Don’t be surprised when Windows asks for permission.* After renaming, move to step 5.  
-5. Now, move up one level and enter into the **Divi Desktop** folder and delete **only** the `divitxs.db` file.  
-6. Close the File Explorer window.
+5. Now, move up one level and enter into the **Divi Desktop** folder.
+6. Delete **only** the `divitxs.db` file, in Divi Desktop folder.  
+7. Close the File Explorer window.
 
 ---
 
