@@ -30,21 +30,23 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
 
 **A.** Open a run dialog box with `Windows Key + R`.  
 **B.** Enter `cmd` and click OK.  
-**C.** Navigate to the daemon using the path provided, and enter the recovery command with your seed words:
+**C.** Navigate to the daemon using the path provided:
+```cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64```
+**D.**Enter the recovery command with your seed words:
 ```
 divid.exe -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1
 ```
 Replace words1-12 with your seed word phrase, all lowercase with a single space between each word.
 
-**D.** Wait a few moments, then open the Divi Desktop Application.
+**E.** Wait a few moments, then open the Divi Desktop Application.
 
 ---
 
 ## Final Steps:
 
-4. Let the app sync completely and wait for your coins to appear in the balance.  
-5. Close the Divi Desktop Application.  
-6. Close the Windows Terminal.
+A. Let the app sync completely and wait for your coins to appear in the balance.  
+B. Close the Divi Desktop Application.  
+C. Close the Windows Terminal.
 
 > **Note:** Step 4 must happen before step 5—do not change the order!
 
