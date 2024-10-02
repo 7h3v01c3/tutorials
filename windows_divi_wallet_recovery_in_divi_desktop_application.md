@@ -6,6 +6,8 @@
 
 **Make sure the Divi Desktop Application is closed before starting.**
 
+**Dont forget to set a password for Divi Desktop once finished**
+
 Hi everyone! In today’s tutorial, I’ll walk you through the process of recovering your Divi Wallet using the Divi Desktop Application. We’ll go step-by-step through the recovery process using your mnemonic (seed phrase) and the terminal.
 
 Let’s get started!
@@ -60,10 +62,13 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
 
 ## Final Steps:
 
-1. Let the Divi Desktop Application sync completely and wait for your coins to appear in the **Total Balance** (top left).  
-2. Close the Divi Desktop Application.  
-3. Close the Windows Terminal.
+**DONT FORGET TO SET A PASSWORD**
 
-> **Note:** For the Final Steps, step 2 must happen before closing the terminal (step 3)—do not change the order!
+1. Let the Divi Desktop Application sync completely and wait for your coins to appear in the **Total Balance** (top left).
+2. Set a Password for Divi Desktop (follow the process)
+3. Close the Divi Desktop Application.  
+4. Close the Windows Terminal.
+
+> **Note:** For the Final Steps, step 3 must happen before closing the terminal (step 4)—do not change the order!
 
 You're all set at recovering your Divi wallet in the Divi Desktop Application.
