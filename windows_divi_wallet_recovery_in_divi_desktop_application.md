@@ -64,7 +64,7 @@ After renaming move to 5.
 2. Close the Divi Desktop Application.
 3. Close the Windows Terminal.
 
-> **Note:** Step 1 must happen before closing the application (Step 2)—do not change the order!
+> **Note:** For Final Steps, Step 2 must happen before closing the application (Step 3)—do not change the order!
 
 You're all set at recovering your Divi wallet in the Divi Desktop Application.
 
