@@ -33,10 +33,10 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
 1. Open a run dialog box with `Windows Key + R`.  
 2. Enter `%appdata%` and hit Enter.
 3. OPEN DIVI (Not Divi Desktop)
-3. Rename `wallet.dat` to `wallet_backup.dat`.
+4. Rename `wallet.dat` to `wallet_backup.dat`.
 *dont be suprised when windows asks permission*
-After renaming move to 4.
-4. Close the File Explorer window.
+After renaming move to 5.
+5. Close the File Explorer window.
 
 ---
 
