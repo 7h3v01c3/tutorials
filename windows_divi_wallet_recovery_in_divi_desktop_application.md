@@ -31,7 +31,9 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
 **A.** Open a run dialog box with `Windows Key + R`.  
 **B.** Enter `cmd` and click OK.  
 **C.** Navigate to the daemon using the path provided:
-```cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64```
+```
+cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
+```
 **D.** Enter the recovery command with your seed words:
 ```
 divid.exe -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1
