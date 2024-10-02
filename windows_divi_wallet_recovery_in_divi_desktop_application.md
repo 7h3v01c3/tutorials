@@ -51,8 +51,7 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
     ```
     cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
     ```
-5. Enter the recovery command with your seed words:
-   At the command line now enter the following comman, below is the syntax.
+5. Enter the recovery command below into your console with your seed words:
     ```
     divid.exe -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1
     ```
