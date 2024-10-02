@@ -1,5 +1,4 @@
-
-# **DO NOT EVER SAVE YOUR SEED WORDS(seed phrases, recovery phrases) IN A TEXT DOCUMENT - EVER!**
+# **DO NOT EVER SAVE YOUR SEED WORDS (seed phrases, recovery phrases) IN A TEXT DOCUMENT - EVER!**
 
 ## Windows Recovery of Divi Wallet in Divi Desktop Application
 
@@ -31,12 +30,12 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
 ## Step A: Prepare for Wallet Recovery
 
 1. Open a run dialog box with `Windows Key + R`.  
-2. Enter `%appdata%` and hit Enter.
-3. OPEN DIVI (Not Divi Desktop)
-4. Rename `wallet.dat` to `wallet_backup.dat`.
-*dont be suprised when windows asks permission*
-After renaming move to 5.
-5. Close the File Explorer window.
+2. Enter `%appdata%` and hit Enter.  
+3. Navigate to the **Divi** folder (not Divi Desktop).  
+4. Rename `wallet.dat` to `wallet_backup.dat`.  
+   *Don’t be surprised when Windows asks for permission.* After renaming, move to step 5.  
+5. Now, navigate to the **Divi Desktop** folder and delete **only** the `divitxs.db` file.  
+6. Close the File Explorer window.
 
 ---
 
@@ -60,11 +59,10 @@ After renaming move to 5.
 
 ## Final Steps:
 
-1. Let the Divi Desktop Application sync completely and wait for your coins to appear in the Total Balance, on top left.
-2. Close the Divi Desktop Application.
+1. Let the Divi Desktop Application sync completely and wait for your coins to appear in the **Total Balance** (top left).  
+2. Close the Divi Desktop Application.  
 3. Close the Windows Terminal.
 
-> **Note:** For Final Steps, Step 2 must happen before closing the application (Step 3)—do not change the order!
+> **Note:** For the Final Steps, step 2 must happen before closing the terminal (step 3)—do not change the order!
 
 You're all set at recovering your Divi wallet in the Divi Desktop Application.
-
