@@ -1,5 +1,5 @@
 
-# **DO NOT EVER SAVE YOUR SEED WORD IN A TEXT DOCUMENT - EVER!**
+# **DO NOT EVER SAVE YOUR SEED WORDS(seed phrases, recovery phrases) IN A TEXT DOCUMENT - EVER!**
 
 ## Windows Recovery of Divi Wallet in Divi Desktop Application
 
