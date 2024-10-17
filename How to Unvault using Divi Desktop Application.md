@@ -82,8 +82,7 @@
     - **Confirm the accuracy** of the pasted address before executing the transaction.
 
   - **Important Note**: The `"sweep_funds"` flag will calculate the total available amount in the vault and adjust for fees. It will transfer as close to the full amount as possible without causing an error due to insufficient funds for fees. If the vault balance has fractional DIVI beyond zeroes, consider rounding down to avoid issues. For instance:
-    - If your balance is `111111.00001111`, leave off the fraction to ensure a successful transfer.
-    - If the balance is exactly `111111.00000000`, simply subtract `1 DIVI` and use `"sweep_funds"` to handle the rest.
+    - If your balance is `111111.00001111`, leave off the fraction to ensure a successful transfer, sweep_funds will do all the work!
 
 ## Large Vaults Only
 
