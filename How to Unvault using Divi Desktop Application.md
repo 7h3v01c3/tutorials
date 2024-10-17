@@ -18,7 +18,7 @@
    - If the **Debug Console** isn't visible in the top right corner of the Divi Desktop Application, go to **Settings**, check the box for **Advanced Mode**, and then open the **Debug Console**.
 
 5. **Unlock Your Wallet**:
-   - You’ll need to unlock the wallet to proceed. Select a timeout duration that suits your session length.
+   - You’ll need to unlock the wallet to proceed. Select a timeout length for your first go around of 20 minutes.
 
 ## Generating an Address and Checking Coin Availability
 
