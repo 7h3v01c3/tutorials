@@ -74,18 +74,18 @@
 - **For vaults under 5 million DIVI**:
   - In the **Debug Console**, enter the following command on the command line to unvault the entire amount, replacing `<your_address_from_unvault_document>` with the address copied from your **unvault document**:
     ```bash
-    reclaimvaultfunds <your_address_from_unvault_document> fullamount "sweep_funds"
+    reclaimvaultfunds <your_address_from_unvault_document> 1 "sweep_funds"
     ```
     - Paste the address:
       - **Windows**: `Ctrl + V`
       - **macOS**: `Cmd + V`
     - **Confirm the accuracy** of the pasted address before executing the transaction.
-  
-  - **Important Note**: The `"sweep_funds"` option will move **all available funds** to the address from Step 6, regardless of the specific amount you input. For example, you can simply enter:
-    ```bash
-    reclaimvaultfunds <your_address_from_unvault_document> 1 "sweep_funds"
-    ```
-    - This command will **sweep** everything in the vault to the specified address, making `"sweep_funds"` very powerful.
+
+  - **Important Note**: The `"sweep_funds"` flag will calculate the total available amount in the vault and adjust for fees. It will transfer as close to the full amount as possible without causing an error due to insufficient funds for fees. If the vault balance has fractional DIVI beyond zeroes, consider rounding down to avoid issues. For instance:
+    - If your balance is `111111.00001111`, leave off the fraction to ensure a successful transfer.
+    - If the balance is exactly `111111.00000000`, simply subtract `1 DIVI` and use `"sweep_funds"` to handle the rest.
+
+## Large Vaults Only
 
 - **For vaults of 5 million DIVI or larger**:
   - Due to the likelihood of needing two transactions, proceed with a split approach:
@@ -102,7 +102,7 @@
        reclaimvaultfunds <your_address_from_unvault_document> remaining_amount "sweep_funds"
        ```
      - Ensure you **double-check the pasted address** at each step for accuracy.
-     - Like in the previous example, `"sweep_funds"` will transfer all remaining funds in the vault to the specified address.
+     - `"sweep_funds"` will transfer all remaining funds in the vault to the specified address, considering fees for a successful transaction.
 
 ## Quick Command Reference
 
