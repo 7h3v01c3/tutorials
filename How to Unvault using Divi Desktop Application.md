@@ -15,7 +15,7 @@
    - Ensure your wallet is **fully synchronized**.
 
 4. **Enable Advanced Mode**:
-   - Go to **Settings**, check the box for **Advanced Mode**, then open the **Debug Console**.
+   - If the **Debug Console** isn't visible in the top right corner of the Divi Desktop Application, go to **Settings**, check the box for **Advanced Mode**, and then open the **Debug Console**.
 
 5. **Unlock Your Wallet**:
    - You’ll need to unlock the wallet to proceed. Select a timeout duration that suits your session length.
@@ -23,7 +23,7 @@
 ## Generating an Address and Checking Coin Availability
 
 6. **Generate a New Receiving Address**:
-   - In the console, enter:
+   - In the **Debug Console**, enter the following command on the command line and press Enter:
      ```bash
      getnewaddress
      ```
@@ -40,7 +40,7 @@
    - Save the document using `Ctrl + S` (Windows) or `Cmd + S` (macOS).
 
 8. **Check UTXO Availability**:
-   - To view your UTXO count, use the following command:
+   - In the **Debug Console**, enter the following command on the command line and press Enter:
      ```bash
      getcoinavailability true
      ```
@@ -57,11 +57,11 @@
      - **macOS**: `Cmd + C`
 
 10. **Run a Small Test Transaction**:
-   - In the debug console, paste the address into the following command:
+   - In the **Debug Console**, paste the address into the following command on the command line, replacing `<your_address_from_unvault_document>` with the address you copied, then press Enter:
      ```bash
      reclaimvaultfunds <your_address_from_unvault_document> 1
      ```
-   - Replace `<your_address_from_unvault_document>` with the **address you copied** by pasting it:
+   - Paste the address by:
      - **Windows**: `Ctrl + V`
      - **macOS**: `Cmd + V`
    - **Double-check** the pasted address for accuracy before hitting Enter.
@@ -72,11 +72,11 @@
 ### Unvault the Full Amount
 
 - **For vaults under 5 million DIVI**:
-  - Use the following command to unvault the entire amount:
+  - In the **Debug Console**, enter the following command on the command line to unvault the entire amount, replacing `<your_address_from_unvault_document>` with the address copied from your **unvault document**:
     ```bash
     reclaimvaultfunds <your_address_from_unvault_document> fullamount "sweep_funds"
     ```
-    - **Replace `<your_address_from_unvault_document>`** with the address copied from your **unvault document**, pasting it with:
+    - Paste the address:
       - **Windows**: `Ctrl + V`
       - **macOS**: `Cmd + V`
     - **Confirm the accuracy** of the pasted address before executing the transaction.
@@ -89,7 +89,7 @@
 
 - **For vaults of 5 million DIVI or larger**:
   - Due to the likelihood of needing two transactions, proceed with a split approach:
-    1. **Step 1**: Initiate the first transaction for a portion of the funds:
+    1. **Step 1**: In the **Debug Console**, enter the following command on the command line to unvault a portion of the funds, then press Enter:
        ```bash
        reclaimvaultfunds <your_address_from_unvault_document> 5000000
        ```
@@ -97,7 +97,7 @@
          - **Windows**: `Ctrl + V`
          - **macOS**: `Cmd + V`
     
-    2. **Step 2**: Complete the process by sweeping the remaining funds with:
+    2. **Step 2**: Complete the process by sweeping the remaining funds with the following command, then press Enter:
        ```bash
        reclaimvaultfunds <your_address_from_unvault_document> remaining_amount "sweep_funds"
        ```
