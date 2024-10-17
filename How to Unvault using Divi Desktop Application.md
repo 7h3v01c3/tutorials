@@ -3,7 +3,7 @@
 ## Preparation
 
 1. **Open a Text Editor**:
-   - On **Windows**, press `Ctrl + Space` and search for **Notepad**.
+   - On **Windows**, press `Alt + Space` and search for **Notepad**.
    - On **macOS**, press `Cmd + Space` and search for **TextEdit**.
 
 2. **Create and Save the Document**:
