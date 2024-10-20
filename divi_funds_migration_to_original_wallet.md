@@ -11,8 +11,8 @@ This guide will help you migrate funds from the **Divi Wallet Mobile** (now unsu
 ### Step 1: Prepare and Save Important Information
 
 1. **Open a Text Editor**:
-   - **Windows**: Press `Windows + R`, type `notepad`, and hit **Enter**.
-   - **macOS**: Press `Cmd + Space`, type `TextEdit`, and hit **Enter**.
+   - **Windows**: Press `Alt + Space`, type `notepad`, and hit **Enter**.
+   - **macOS**: Press `CMD + Space`, type `TextEdit`, and hit **Enter**.
    
 2. **Create and Save the Document**:
    - Name the file something meaningful, like `migration.txt`, and save it on your **Desktop** for easy access.
