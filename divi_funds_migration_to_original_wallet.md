@@ -28,6 +28,7 @@ This guide will help you migrate funds from the **Divi Wallet Mobile** (now unsu
      wallet_backup_2024-xx-xx-xx-xx-xx.dat
      ```
    - **Copy the name of this file** (e.g., `wallet_backup_2024-xx-xx-xx-xx-xx.dat`) and paste it into your **migration.txt** document.
+     It is imperitive that you copy it perfectly. 
 
 4. **Save the file** using `Ctrl + S` on Windows or `Cmd + S` on macOS.
 
