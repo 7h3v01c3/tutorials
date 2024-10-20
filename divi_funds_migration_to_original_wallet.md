@@ -31,8 +31,8 @@ In this tutorial, we will guide users on how to migrate funds between the **newl
 1. Open **Divi Desktop** and log in.
 2. If the **Debug Console** isn't visible in the Divi Desktop application, follow these steps:
    - Go to **Settings**.
-   - Select **Options**.
-   - Check the box for **Advanced Mode**.
+   - On the **General** tab.
+   - - Check the box for **Advanced Mode**.
    - Restart **Divi Desktop** if prompted to apply the changes.
 3. After enabling **Advanced Mode**, the **Debug Console** will appear in the top right corner of the Divi Desktop window. Click on it to open the console.
 
