@@ -51,8 +51,8 @@ Here is the revised **Step 3** with your changes incorporated:
 2. Open **Debug Console** 
    - If Debug Console isnt visible
      - **Enable Debug Console**:
-     - Go to **Settings**.
-     - Onn the **General** tab, check the box for **Advanced Mode**.
+        - Go to **Settings**.
+        - On the **General** tab, check the box for **Advanced Mode**.
      - Once **Advanced Mode** is enabled, the **Debug Console** will be visible at the top. Click it to open the console.
 
 ---
