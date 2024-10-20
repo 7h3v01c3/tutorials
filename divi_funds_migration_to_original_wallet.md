@@ -48,13 +48,12 @@ Here is the revised **Step 3** with your changes incorporated:
 ### Step 2: Log In to Divi Desktop and Enable Debug Console
 
 1. **Open Divi Desktop** and log in.
-   
-2. **Enable Debug Console**:
-   - Go to **Settings**.
-   - In the **General** tab, check the box for **Advanced Mode**.
-   - Restart **Divi Desktop** if prompted.
-   
-3. Once **Advanced Mode** is enabled, the **Debug Console** will be visible at the top. Click it to open the console.
+2. Open **Debug Console** 
+   - If Debug Console isnt visible
+     - **Enable Debug Console**:
+     - Go to **Settings**.
+     - Onn the **General** tab, check the box for **Advanced Mode**.
+     - Once **Advanced Mode** is enabled, the **Debug Console** will be visible at the top. Click it to open the console.
 
 ---
 
