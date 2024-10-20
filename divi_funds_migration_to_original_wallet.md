@@ -15,7 +15,7 @@ In this tutorial, we will guide users on how to migrate funds between the **newl
 2. Type `%appdata%` and press **Enter**.
 3. Navigate to the following folder:
    ```
-   AppData/Roaming/DIVI
+   DIVI
    ```
 4. Inside the **DIVI** folder, you will see a file named:
    ```
