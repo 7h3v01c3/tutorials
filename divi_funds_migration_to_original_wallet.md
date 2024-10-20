@@ -88,12 +88,17 @@ In this tutorial, we will guide users on how to migrate funds between the **newl
 
 ### Step 6: Validate the New Address
 
-1. Validate the new address to ensure it belongs to your original wallet:
+1. **Open your notepad** document from earlier, where you saved the name of your backup wallet.
+2. In the **Debug Console**, run the following command to validate the new address you generated in the previous step:
    ```bash
    validateaddress <yournewaddress>
    ```
-   Replace `<yournewaddress>` with the address generated in the previous step.
-2. Confirm that the `ismine` field is set to **true**.
+   Replace `<yournewaddress>` with the address from **Step 5**. **Do not manually type it—copy and paste it from your notepad** to avoid mistakes:
+   - **Windows**: `Ctrl + V`
+   - **macOS**: `Cmd + V`
+
+3. Look at the result to confirm that the **`ismine`** field is set to **true**. This confirms the address belongs to your original wallet.
+4. **Save this address** in your notepad for future reference by copying it into the same document where you saved the wallet name in **Step 1**.
 
 ---
 
