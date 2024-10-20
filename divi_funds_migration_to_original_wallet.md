@@ -111,17 +111,8 @@ Here is the revised **Step 3** with your changes incorporated:
      - **Windows**: `Ctrl + C`
      - **macOS**: `Cmd + C`
    
-3. Paste this address into your **migration.txt** document for safekeeping:
-   - **Windows**: `Ctrl + V`
-   - **macOS**: `Cmd + V`
 
-4. Save the document again.
-
----
-
-### Step 6: Validate the New Address
-
-1. In the **Debug Console**, validate the address to confirm it belongs to your original wallet:
+3. Run the following command to validate the address to confirm it belongs to your original wallet:
    ```bash
    validateaddress <yournewaddress>
    ```
@@ -129,7 +120,14 @@ Here is the revised **Step 3** with your changes incorporated:
    - **Windows**: `Ctrl + V`
    - **macOS**: `Cmd + V`
 
-2. Ensure the **`ismine`** field is set to **true**.
+4. Ensure the **`ismine`** field is set to **true**.
+
+### Step 6: Save the new address in migration.txt
+1. Paste this address into your **migration.txt** document from Step 1 for safekeeping:
+   - **Windows**: `Ctrl + V`
+   - **macOS**: `Cmd + V`
+
+2. Save the document again.
 
 ---
 
