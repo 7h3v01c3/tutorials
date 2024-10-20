@@ -17,18 +17,29 @@ This guide will help you migrate funds from the **Divi Wallet Mobile** (now unsu
 2. **Create and Save the Document**:
    - Name the file something meaningful, like `migration.txt`, and save it on your **Desktop** for easy access.
    
-3. **Locate Your Original Wallet Backup**:
-   - Press `Windows + R` on your keyboard, type `%appdata%`, and hit **Enter**.
-   - Open Divi Folder:
-     ```
-     DIVI
-     ```
-   - Look for a file named:
-     ```
-     wallet_backup_2024-xx-xx-xx-xx-xx.dat
-     ```
-   - **Copy the name of this file** (e.g., `wallet_backup_2024-xx-xx-xx-xx-xx.dat`) and paste it into your **migration.txt** document.
-     It is imperitive that you copy it perfectly. 
+Here is the revised **Step 3** with your changes incorporated:
+
+---
+
+### Step 3: Locate Your Original Wallet Backup
+
+1. **Press** `Windows + R` on your keyboard, type `%appdata%`, and hit **Enter**.
+   
+2. **Open the Divi folder**:
+   ```
+   DIVI
+   ```
+   
+3. **Look for a file named**:
+   ```
+   wallet_backup_2024-xx-xx-xx-xx-xx.dat
+   ```
+   
+4. **Copy the name of this file** (e.g., `wallet_backup_2024-xx-xx-xx-xx-xx.dat`) and **paste it into your `migration.txt` document**.
+
+   **It is imperative that you copy it perfectly** to avoid errors later in the process.
+
+---
 
 4. **Save the file** using `Ctrl + S` on Windows or `Cmd + S` on macOS.
 
