@@ -19,9 +19,9 @@ This guide will help you migrate funds from the **Divi Wallet Mobile** (now unsu
    
 3. **Locate Your Original Wallet Backup**:
    - Press `Windows + R` on your keyboard, type `%appdata%`, and hit **Enter**.
-   - Navigate to:
+   - Open Divi Folder:
      ```
-     AppData/Roaming/DIVI
+     DIVI
      ```
    - Look for a file named:
      ```
