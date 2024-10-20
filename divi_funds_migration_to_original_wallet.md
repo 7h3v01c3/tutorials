@@ -19,17 +19,22 @@ In this tutorial, we will guide users on how to migrate funds between the **newl
    ```
 4. Inside the **DIVI** folder, you will see a file named:
    ```
-   wallet_backup_2024-10-xx-xx-xx-xx.dat
+   wallet_backup_2024-xx-xx-xx-xx-xx.dat
    ```
    (The date will vary depending on when the backup was created.)
-5. Copy the name of this file (e.g., `wallet_backup_2024-10-xx-xx-xx-xx.dat`) and save it in **Notepad** for later use.
+5. Copy the name of this file (e.g., `wallet_backup_2024-xx-xx-xx-xx-xx.dat`) and save it in **Notepad** for later use.
 
 ---
 
 ### Step 2: Log In to Divi Desktop and Open the Console
 
-1. Open your **Divi Desktop Wallet** and log in using your 12-word seed phrase wallet.
-2. Go to the **Help** menu, select **Debug Window**, then click the **Console** tab.
+1. Open **Divi Desktop** and log in.
+2. If the **Debug Console** isn't visible in the Divi Desktop application, follow these steps:
+   - Go to **Settings**.
+   - Select **Options**.
+   - Check the box for **Advanced Mode**.
+   - Restart **Divi Desktop** if prompted to apply the changes.
+3. After enabling **Advanced Mode**, the **Debug Console** will appear in the top right corner of the Divi Desktop window. Click on it to open the console.
 
 ---
 
