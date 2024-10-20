@@ -40,11 +40,12 @@ In this tutorial, we will guide users on how to migrate funds between the **newl
 
 ### Step 3: Check the Current Wallet
 
-1. Run the following command to check the current wallet you're using:
+1. Unlock Wallet 
+2. Run the following command to check the current wallet you're using:
    ```bash
    getwalletinfo
    ```
-2. The output will show that you're in the **default wallet**, which is associated with your 12-word seed phrase:
+3. The output will show that you're in the **default wallet**, which is associated with your 12-word seed phrase:
    ```
    wallet.dat
    ```
