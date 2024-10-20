@@ -52,10 +52,6 @@ In this tutorial, we will guide users on how to migrate funds between the **newl
 
 ---
 
-Got it! Let’s make sure we explicitly reference where they copied the name from, reinforcing the critical steps to avoid mistakes. Here’s the updated **Step 4** with clear guidance:
-
----
-
 ### Step 4: Load the Original Backup Wallet
 
 1. To access your original backup wallet, carefully run this command. **Replace the date** with the one from the backup file you copied in **Step 1**:
@@ -77,11 +73,7 @@ Got it! Let’s make sure we explicitly reference where they copied the name fro
    ```
    wallet_backup_2024-10-xx-xx-xx-xx.dat
    ```
-
----
-
-This reinforces where they originally copied the wallet name and helps them avoid mistakes. Let me know if this hits the mark!
-
+   
 ---
 
 ### Step 5: Generate a New Address in the Backup Wallet
