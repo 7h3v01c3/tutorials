@@ -90,7 +90,7 @@ Here is the revised **Step 3** with your changes incorporated:
    getwalletinfo
    ```
    The output should display:
-   ```
+   ```bash
    "active_wallet" : "wallet_backup_2024-xx-xx-xx-xx-xx.dat"
    ```
 
@@ -99,7 +99,7 @@ Here is the revised **Step 3** with your changes incorporated:
 ### Step 5: Generate a New Address in the Backup Wallet
 
 1. In Debug Console run the following command to generate a new receiving address in your original desktop wallet:
-   ```bash
+   ```
    getnewaddress
    ```
 
@@ -111,7 +111,7 @@ Here is the revised **Step 3** with your changes incorporated:
    
 
 3. In Debug Console run the following command to validate the address to confirm it belongs to your original desktop wallet:
-   ```bash
+   ```
    validateaddress <yournewaddress>
    ```
    Replace `<yournewaddress>` with the address you copied from **Step 5**. **Paste** the address using keyboard commands:
@@ -135,7 +135,7 @@ Here is the revised **Step 3** with your changes incorporated:
 ### Step 7: Return to Your imported Divi Wallet
 
 1. After validating the address, load your imported Divi Mobile Wallet:
-   ```bash
+   ```
    loadwallet wallet.dat
    ```
 
@@ -144,7 +144,7 @@ Here is the revised **Step 3** with your changes incorporated:
 ### Step 8: Unlock Your Wallet
 
 1. Unlock your imported Divi Mobile Wallet to send funds:
-   ```bash
+   ```
    walletpassphrase <yourpassword> 9999 false
    ```
    Replace `<yourpassword>` with your actual wallet password.
@@ -154,7 +154,7 @@ Here is the revised **Step 3** with your changes incorporated:
 ### Step 9: Send Funds to the New Address from your Original Desktop Wallet.
 
 1. Send the funds to the address generated in **Step 5**:
-   ```bash
+   ```
    sendtoaddress <yournewaddress> <amount>
    ```
    Replace `<yournewaddress>` with the address from **Step 5**, and `<amount>` with the amount of Divi to transfer.
