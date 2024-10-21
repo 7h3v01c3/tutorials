@@ -64,7 +64,7 @@ Here is the revised **Step 3** with your changes incorporated:
    getwalletinfo
    ```
    
-3. The output will show that your "active_wallet" is wallet.dat which the defaul when Divi Desktop Application starts, which after using Divi Wallet Importer is the 12-word seed phrase wallet:
+3. The output will show that your "active_wallet" is wallet.dat which the default when Divi Desktop Application starts, which after using Divi Wallet Importer is the 12-word seed phrase wallet:
    ```
     "active_wallet" : "wallet.dat"
    ```
@@ -73,7 +73,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ### Step 4: Load the Original Backup Wallet
 
-1. To access your original backup wallet, in Debug Console run the following command, **replacing the date** with the one you copied in **Step 1**:
+1. To access your original backup wallet, in Debug Console run the following command, by entering loadwallet and pasting in your backed up wallet file name.
    ```bash
    loadwallet wallet_backup_2024-xx-xx-xx-xx-xx.dat
    ```
@@ -119,6 +119,9 @@ Here is the revised **Step 3** with your changes incorporated:
    - **macOS**: `Cmd + V`
 
 4. Ensure the **`ismine`** field is set to **true**.
+```bash
+"ismine" : true
+```
 
 ### Step 6: Save the new address in migration.txt
 1. Paste this address into your **migration.txt** document from Step 1 for safekeeping:
