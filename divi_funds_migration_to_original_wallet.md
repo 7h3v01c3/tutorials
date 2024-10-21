@@ -65,7 +65,7 @@ Here is the revised **Step 3** with your changes incorporated:
    ```
    
 3. The output will show that your "active_wallet" is wallet.dat which the default when Divi Desktop Application starts, which after using Divi Wallet Importer is the 12-word seed phrase wallet:
-   ```
+   ```bash
     "active_wallet" : "wallet.dat"
    ```
 
