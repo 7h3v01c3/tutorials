@@ -119,9 +119,9 @@ Here is the revised **Step 3** with your changes incorporated:
    - **macOS**: `Cmd + V`
 
 4. Ensure the **`ismine`** field is set to **true**.
-```bash
-"ismine" : true
-```
+   ```bash
+   "ismine" : true
+   ```
 
 ### Step 6: Save the new address in migration.txt
 1. Paste this address into your **migration.txt** document from Step 1 for safekeeping:
