@@ -39,9 +39,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
    **It is imperative that you copy it perfectly** to avoid errors later in the process.
 
----
-
-4. **Save the file** using `Ctrl + S` on Windows or `Cmd + S` on macOS.
+5. **Save the file** using `Ctrl + S` on Windows or `Cmd + S` on macOS.
 
 ---
 
@@ -61,7 +59,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 1. **Unlock your wallet** if necessary.
    
-2. Run the following command to check the current wallet you're using:
+2. Run the following command in Debug Console to check the current wallet you're using:
    ```bash
    getwalletinfo
    ```
@@ -75,7 +73,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ### Step 4: Load the Original Backup Wallet
 
-1. To access your original backup wallet, run the following command, **replacing the date** with the one you copied in **Step 1**:
+1. To access your original backup wallet, in Debug Console run the following command, **replacing the date** with the one you copied in **Step 1**:
    ```bash
    loadwallet wallet_backup_2024-xx-xx-xx-xx-xx.dat
    ```
@@ -87,7 +85,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 2. Wait about 60 seconds for the wallet to load.
 
-3. Confirm you are in the correct wallet by running:
+3. In Debug Console run the following command to confirm you are loading the original desktop wallet:
    ```bash
    getwalletinfo
    ```
@@ -100,7 +98,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ### Step 5: Generate a New Address in the Backup Wallet
 
-1. Run the following command to generate a new receiving address in your original wallet:
+1. In Debug Console run the following command to generate a new receiving address in your original desktop wallet:
    ```bash
    getnewaddress
    ```
@@ -112,7 +110,7 @@ Here is the revised **Step 3** with your changes incorporated:
      - **macOS**: `Cmd + C`
    
 
-3. Run the following command to validate the address to confirm it belongs to your original wallet:
+3. In Debug Console run the following command to validate the address to confirm it belongs to your original desktop wallet:
    ```bash
    validateaddress <yournewaddress>
    ```
@@ -127,13 +125,13 @@ Here is the revised **Step 3** with your changes incorporated:
    - **Windows**: `Ctrl + V`
    - **macOS**: `Cmd + V`
 
-2. Save the document again.
+2. **Save the file** using `Ctrl + S` on Windows or `Cmd + S` on macOS.
 
 ---
 
-### Step 7: Return to Your Seed Phrase Wallet
+### Step 7: Return to Your imported Divi Wallet
 
-1. After validating the address, load your 12-word seed phrase wallet again by running:
+1. After validating the address, load your imported Divi Mobile Wallet:
    ```bash
    loadwallet wallet.dat
    ```
@@ -142,7 +140,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ### Step 8: Unlock Your Wallet
 
-1. Unlock your seed phrase wallet to send funds:
+1. Unlock your imported Divi Mobile Wallet to send funds:
    ```bash
    walletpassphrase <yourpassword> 9999 false
    ```
@@ -150,7 +148,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 9: Send Funds to the New Address
+### Step 9: Send Funds to the New Address from your Original Desktop Wallet.
 
 1. Send the funds to the address generated in **Step 5**:
    ```bash
