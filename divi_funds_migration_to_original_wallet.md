@@ -1,4 +1,4 @@
-### Migrating Imported Funds from Divi Wallet Mobile to the Original Divi Desktop Wallet
+### Migrating Funds Imported from Divi Wallet Mobile (12-word seeds) to the Original Divi Desktop Wallet (24-word seeds)
 
 ---
 
