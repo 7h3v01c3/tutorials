@@ -1,4 +1,4 @@
-### Migrating Funds from Divi Mobile Wallet to Original Desktop Wallet
+### Migrating Imported Funds from Divi Wallet Mobile to the Original Divi Desktop Wallet
 
 ---
 
