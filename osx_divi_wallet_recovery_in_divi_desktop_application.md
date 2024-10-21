@@ -16,7 +16,7 @@ Let’s get started!
 
 ### Syntax for Recovery:
 ```
-./divid -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1
+./divid -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1 &
 ```
 
 ### Path in Terminal:
@@ -55,7 +55,7 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
     ```
 4. Now, run the following recovery command, replacing `word1` through `word12` with your actual seed words:
     ```
-    ./divid -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1
+    ./divid -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1 &
     ```
     Make sure your seed words are all lowercase, with a single space between each word.
 
