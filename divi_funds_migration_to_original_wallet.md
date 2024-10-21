@@ -4,7 +4,7 @@
 
 ### Overview
 
-This guide will help you migrate funds from the **Divi Wallet Mobile** (now unsupported) to the **Divi Desktop** wallet. You will move funds from the newly imported mobile wallet to your original desktop wallet. The steps also include renaming the wallet files to set the original wallet as the default.
+If you imported funds using the Divi Wallet Importer and didn’t use a newly installed Divi Desktop Application, you may have funds in two wallets: the recently imported Divi Wallet Mobile and your original Divi Desktop wallet file that was preserved. This manual tutorial will help you migrate to a single wallet, specifically your original Divi Desktop wallet with 24 words. You’ll send all the funds to an address associated with the original wallet, then we will reset the original Divi Desktop wallet as the default after confirming your balance update.
 
 ---
 
