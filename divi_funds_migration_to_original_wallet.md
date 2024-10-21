@@ -64,7 +64,7 @@ Here is the revised **Step 3** with your changes incorporated:
    getwalletinfo
    ```
    
-3. The output will show that you're in the **default wallet**, which is typically the 12-word seed phrase wallet:
+3. The output will show that you're in the **default wallet**, which after using Divi Wallet Importer is the 12-word seed phrase wallet:
    ```
    wallet.dat
    ```
