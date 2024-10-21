@@ -64,9 +64,9 @@ Here is the revised **Step 3** with your changes incorporated:
    getwalletinfo
    ```
    
-3. The output will show that you're in the **default wallet**, which after using Divi Wallet Importer is the 12-word seed phrase wallet:
+3. The output will show that your "active_wallet" is wallet.dat which the defaul when Divi Desktop Application starts, which after using Divi Wallet Importer is the 12-word seed phrase wallet:
    ```
-   wallet.dat
+    "active_wallet" : "wallet.dat"
    ```
 
 ---
@@ -91,7 +91,7 @@ Here is the revised **Step 3** with your changes incorporated:
    ```
    The output should display:
    ```
-   wallet_backup_2024-xx-xx-xx-xx-xx.dat
+   "active_wallet" : "wallet_backup_2024-xx-xx-xx-xx-xx.dat"
    ```
 
 ---
