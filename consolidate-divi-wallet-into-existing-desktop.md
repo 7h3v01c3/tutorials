@@ -27,7 +27,7 @@ Windows users can use the **Divi Wallet Importer** app to streamline the recover
    *Follow the Divi Wallet Importer tutorial for any questions.*
    - For each 12-word wallet:
      - Open **Divi Wallet Importer** and import the 12-word phrase to recover the wallet with coins.
-     - Unvault any funds if necessary.
+     - Unvault any funds if necessary. [How To Manually Unvault](https://www.youtube.com/watch?v=4EBZdnon_Qo)
      - Send the entire balance from this wallet to the Main Address you saved in step 1.
    - After completing the transfer, close **Divi Wallet Importer**.
 
@@ -51,6 +51,7 @@ Mac users will need to follow a manual command line recovery process, as the Div
 ### 3. Recover Each 12-Word Wallet Using the Command Line
    - For each 12-word wallet:
      - Follow the [manual command line recovery tutorial](https://github.com/7h3v01c3/tutorials/blob/main/osx_divi_wallet_recovery_in_divi_desktop_application.md) to recover the 12-word wallet with coins.
+     - Unvault any funds if necessary. [How To Manually Unvault](https://www.youtube.com/watch?v=4EBZdnon_Qo)
      - Once recovered, use the running **Divi Desktop Application** to send the coins from the now-recovered 12-word wallet to the Main Address saved in step 1.
    - After completing the transfer, close **Divi Desktop** and the terminal window.
 
