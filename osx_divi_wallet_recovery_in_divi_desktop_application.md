@@ -47,7 +47,7 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
 1. Open the **Terminal** application (you can find it in Applications > Utilities or search using Spotlight).
 2. Navigate to the Divi daemon folder using the path below:
     ```
-    cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_mac_64
+    cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
     ```
 3. Before running the daemon, make it executable by entering:
     ```
