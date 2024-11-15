@@ -21,7 +21,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 3: Locate Your Original Wallet Backup
+### Step 2: Locate Your Original Wallet Backup
 
 1. **Press** `Windows + R` on your keyboard, type `%appdata%`, and hit **Enter**.
    
@@ -43,7 +43,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 2: Log In to Divi Desktop and Enable Debug Console
+### Step 3: Log In to Divi Desktop and Enable Debug Console
 
 1. **Open Divi Desktop** and log in.
 2. Open **Debug Console** 
@@ -55,7 +55,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 3: Verify Current Wallet
+### Step 4: Verify Current Wallet
 
 1. **Unlock your wallet** if necessary.
    
@@ -71,7 +71,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 4: Load the Original Backup Wallet
+### Step 5: Load the Original Backup Wallet
 
 1. To access your original backup wallet, in Debug Console run the following command, by entering loadwallet and pasting in your backed up wallet file name.
    ```bash
@@ -96,7 +96,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 5: Generate a New Address in the Backup Wallet
+### Step 6: Generate a New Address in the Backup Wallet
 
 1. In Debug Console run the following command to generate a new receiving address in your original desktop wallet:
    ```
@@ -123,7 +123,7 @@ Here is the revised **Step 3** with your changes incorporated:
    "ismine" : true
    ```
 
-### Step 6: Save the new address in migration.txt
+### Step 7: Save the new address in migration.txt
 1. Paste this address into your **migration.txt** document from Step 1 for safekeeping:
    - **Windows**: `Ctrl + V`
    - **macOS**: `Cmd + V`
@@ -132,7 +132,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 7: Return to Your imported Divi Wallet
+### Step 8: Return to Your imported Divi Wallet
 
 1. After validating the address, load your imported Divi Mobile Wallet:
    ```
@@ -141,7 +141,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 8: Unlock Your Wallet
+### Step 9: Unlock Your Wallet
 
 1. Unlock your imported Divi Mobile Wallet to send funds:
    ```
@@ -151,7 +151,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 9: Send Funds to the New Address from your Original Desktop Wallet.
+### Step 10: Send Funds to the New Address from your Original Desktop Wallet.
 
 1. Send the funds to the address generated in **Step 5**:
    ```
@@ -163,7 +163,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 10: Load the Backup Wallet Again
+### Step 11: Load the Backup Wallet Again
 
 1. Once the transaction is confirmed, load your original backup wallet again:
    ```bash
@@ -177,7 +177,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 11: Check Your Balance
+### Step 12: Check Your Balance
 
 1. To confirm the funds have been received, run:
    ```bash
@@ -186,7 +186,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 12: Rename Wallet Files
+### Step 13: Rename Wallet Files
 
 1. **Close Divi Desktop** completely.
 
@@ -211,7 +211,7 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
-### Step 13: Reopen Divi Desktop
+### Step 14: Reopen Divi Desktop
 
 1. Reopen **Divi Desktop**. The application will now load your original wallet, and the funds from the mobile wallet will have been successfully migrated.
 
