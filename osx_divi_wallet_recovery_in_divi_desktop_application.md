@@ -18,6 +18,10 @@ Let’s get started!
 ```
 ./divid -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1 &
 ```
+**Note:** If you encounter the error:  
+*Error: There is no RPC client functionality in divid anymore. Use the divi-cli utility instead.*,  
+this usually indicates a syntax error. Review your command for missing or incorrect quotes (`"`), hyphens (`-`), or spelling mistakes.
+
 
 ### Path in Terminal:
 ```
@@ -58,6 +62,10 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
     ./divid -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1 &
     ```
     Make sure your seed words are all lowercase, with a single space between each word.
+**Note:** If you encounter the error:  
+*Error: There is no RPC client functionality in divid anymore. Use the divi-cli utility instead.*,  
+this usually indicates a syntax error. Review your command for missing or incorrect quotes (`"`), hyphens (`-`), or spelling mistakes.
+
 
 5. Wait a few moments, then open the Divi Desktop Application.
 
