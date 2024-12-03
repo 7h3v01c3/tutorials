@@ -49,15 +49,16 @@ Open the Command Prompt as shown below:
 ![CMD Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/cmd.png)
 
 3. Navigate to the Divi daemon directory:
+     - Copy and paste or type this command into the CMD window
+   ```
+   cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
+   ```
 
 Example:
 Navigate to the correct directory in your AppData folder:
 
 ![AppData Full Path](https://github.com/7h3v01c3/tutorials/blob/main/images/appdata-full-path-divi-win-64.png)
 
-   ```
-   cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
-   ```
 
 4. Run the force rescan command:
 
