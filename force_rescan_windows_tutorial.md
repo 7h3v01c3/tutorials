@@ -1,8 +1,4 @@
-# **NEVER STORE YOUR SEED WORDS (Seed Phrases, Recovery Phrases) IN A TEXT DOCUMENT (e.g., Notepad, WordPad, Word, Google Docs, etc.)—EVER!**
-
----
-
-## **Windows: Force Rescan on an Existing Seed-Restored Wallet**
+# **Windows: Force Rescan on an Existing Seed-Restored Wallet**
 
 This guide will walk you through performing a `-force_rescan=1` on an **existing wallet** in the Divi Desktop Application. This process helps if your restored wallet isn't showing your coins or transactions after syncing.
 
@@ -69,3 +65,9 @@ If you have further questions or issues, join the community for real-time help:
 - **Telegram**: [https://t.me/diviproject](https://t.me/diviproject)
 
 Stay secure, and happy staking! 😊
+
+---
+# **NEVER STORE YOUR SEED WORDS (Seed Phrases, Recovery Phrases) IN A TEXT DOCUMENT (e.g., Notepad, WordPad, Word, Google Docs, etc.)—EVER!**
+
+
+
