@@ -8,7 +8,7 @@ Let’s get started!
 
 ### **Important Notes Before You Begin**
 1. Ensure the Divi Desktop Application is **completely closed** before starting.
-2. Do **NOT** rename or delete your `wallet.dat` file—this process works directly on your existing wallet.
+2. Do **NOT** rename or delete your `wallet.dat` file—this process works with your existing wallet.
 3. This guide assumes your wallet is already restored, and you are only rescanning the blockchain for your transactions.
 
 ---
