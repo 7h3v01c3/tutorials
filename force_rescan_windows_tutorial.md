@@ -76,7 +76,6 @@ Run the following command to initiate the rescan:
 2. Fully close the Divi Desktop Application to complete the process.  
 3. Exit the Command Prompt (CMD) window by clicking the "X" or typing `exit` and pressing Enter.  
 
-> **Note:** Always ensure your wallet is password-protected to safeguard your funds and sensitive data.
 ---
 
 > **Important:** This process rescans the blockchain for your wallet's transactions without creating a new wallet file. By keeping your `wallet.dat` intact, all your previous data is preserved during the rescan.
