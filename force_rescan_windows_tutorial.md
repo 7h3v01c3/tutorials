@@ -41,7 +41,7 @@ Delete the divitxs.db file:
 ## **Step B: Perform the Force Rescan**
 
 1. Open a Run dialog box with `Windows Key + R`.
-2. Type `cmd` and hit **Enter** to open the Command Prompt.
+2. Type `cmd` and hit **Enter** or click "OK" to open the Command Prompt.
 
 Example:
 Open the Command Prompt as shown below:
