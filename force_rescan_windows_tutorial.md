@@ -29,6 +29,7 @@ Let’s get started!
 
 Example:
 Open the Command Prompt as shown below:
+
 ![CMD Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/cmd.png)
 
 1. Open a Run dialog box with `Windows Key + R`.
@@ -37,6 +38,7 @@ Open the Command Prompt as shown below:
 
 Example:
 Navigate to the correct directory in your AppData folder:
+
 ![AppData Full Path](https://github.com/7h3v01c3/tutorials/blob/main/images/appdata-full-path-divi-win-64.png)
 
    ```
@@ -44,8 +46,10 @@ Navigate to the correct directory in your AppData folder:
    ```
 
 4. Run the force rescan command:
+
 Example
 Run the following command to initiate the rescan:
+
 ![Divi Force Rescan](https://github.com/7h3v01c3/tutorials/blob/main/images/divid-force-rescan.png)
 
    ```
@@ -67,6 +71,7 @@ Run the following command to initiate the rescan:
 ---
 
 ### **Final Steps**
+
 1. Set a strong password for your Divi Desktop Application if you haven’t already done so.
 2. Close the Divi Desktop Application, exit completely.
 3. Close "X" the cmd window now!
