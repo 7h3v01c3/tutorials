@@ -40,7 +40,7 @@ Let’s get started!
    ```
    divid.exe -force_rescan=1
    ```
-5. Let the process complete. This may take some time depending on your wallet and blockchain sync status.
+5. Let the process complete. This may take some time depending on your wallet transaction history.
   - Leave this CMD window open while scanning
 
 ---
