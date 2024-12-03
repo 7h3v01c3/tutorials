@@ -15,6 +15,7 @@ Let’s get started!
 
 ## **Step A: Prepare for the Force Rescan**
 
+
 1. **Close the Divi Desktop Application completely.**
 2. Open a Run dialog box with `Windows Key + R`.
 3. Type `%appdata%` and hit **Enter**.
@@ -26,18 +27,33 @@ Let’s get started!
 
 ## **Step B: Perform the Force Rescan**
 
+Example:
+Open the Command Prompt as shown below:
+![CMD Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/cmd.png)
+
 1. Open a Run dialog box with `Windows Key + R`.
 2. Type `cmd` and hit **Enter** to open the Command Prompt.
 3. Navigate to the Divi daemon directory:
+
+Example:
+Navigate to the correct directory in your AppData folder:
+![AppData Full Path](https://github.com/7h3v01c3/tutorials/blob/main/images/appdata-full-path-divi-win-64.png)
+
    ```
    cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
    ```
+
 4. Run the force rescan command:
+Example
+Run the following command to initiate the rescan:
+![Divi Force Rescan](https://github.com/7h3v01c3/tutorials/blob/main/images/divid-force-rescan.png)
+
    ```
    divid.exe -force_rescan=1
    ```
-5. Let the process complete. This may take some time depending on your wallet transaction history.
-  - Leave this CMD window open while scanning
+
+5. Wait about 5 Minutes. 
+  - Leave this CMD Until Final Steps
 
 ---
 
