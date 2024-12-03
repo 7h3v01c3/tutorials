@@ -19,21 +19,35 @@ Let’s get started!
 1. **Close the Divi Desktop Application completely.**
 2. Open a Run dialog box with `Windows Key + R`.
 3. Type `%appdata%` and hit **Enter**.
+
+Example:
+Open the AppData Roaming in File Explorer as shown below:
+
+![AppData Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/appdata.png)
+
 4. Navigate to the **Divi Desktop** folder.
-5. Delete **only** the `divitxs.db` file in the **Divi Desktop** folder.
-    - *This file stores temporary transaction data and will be rebuilt during the rescan.*
+    Delete only the divitxs.db file in the Divi Desktop folder.
+        -- This file stores temporary transaction data and will be rebuilt during the rescan.
+        -- Note: The .db extension may not be visible, and you might only see divitxs as the file name.
+
+Example:
+Delete the divitxs.db file:
+
+![AppData Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/divitxs-db.png)
+
 
 ---
 
 ## **Step B: Perform the Force Rescan**
+
+1. Open a Run dialog box with `Windows Key + R`.
+2. Type `cmd` and hit **Enter** to open the Command Prompt.
 
 Example:
 Open the Command Prompt as shown below:
 
 ![CMD Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/cmd.png)
 
-1. Open a Run dialog box with `Windows Key + R`.
-2. Type `cmd` and hit **Enter** to open the Command Prompt.
 3. Navigate to the Divi daemon directory:
 
 Example:
