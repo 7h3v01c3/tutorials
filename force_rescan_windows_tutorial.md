@@ -27,8 +27,8 @@ Open the AppData Roaming in File Explorer as shown below:
 
 4. Navigate to the **Divi Desktop** folder.
     Delete only the divitxs.db file in the Divi Desktop folder.
-        -- This file stores temporary transaction data and will be rebuilt during the rescan.
-        -- Note: The .db extension may not be visible, and you might only see divitxs as the file name.
+    - This file stores temporary transaction data and will be rebuilt during the rescan.
+    - Note: The .db extension may not be visible, and you might only see divitxs as the file name.
 
 Example:
 Delete the divitxs.db file:
