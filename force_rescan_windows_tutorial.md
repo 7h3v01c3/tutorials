@@ -18,7 +18,7 @@ Let’s get started!
 
 1. **Close the Divi Desktop Application completely.**
 2. Open a Run dialog box with `Windows Key + R`.
-3. Type `%appdata%` and hit **Enter**.
+3. Type `%appdata%` and hit **Enter** or click "OK".
 
 Example:
 Open the AppData Roaming in File Explorer as shown below:
