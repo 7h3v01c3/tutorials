@@ -1,4 +1,4 @@
-# Consolidating Coins from Multiple Divi Wallet 12-Word Wallets to a 24-Word Wallet in Divi Desktop
+# Consolidating Coins from a 12-Word Wallets into a 24-Word Wallet using Divi Wallet Importer and Divi Desktop
 
 ## Notes
 *Think about this for a moment, read this out loud to yourself: "the app is not a wallet; your words (12 and 24) are what make your wallet."*  
