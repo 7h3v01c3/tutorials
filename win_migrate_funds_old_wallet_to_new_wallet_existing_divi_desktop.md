@@ -32,14 +32,16 @@
 
 #### **3. Back Up Your New Wallet Seed Words**
 1. Run the following command in the Debug Console:
-   ```
-   dumphdinfo
-   ```
-2. Carefully copy down the new seed words and store them securely. Do NOT photograph them, or skip this step.
 
-    Failing to back up these new seed words is not just careless—it’s reckless. These seed words are your ultimate key to recovery and control over your wallet. If you lose them, no one—literally no one—can help you.
+```
+dumphdinfo
+```
 
-Self-custody means total responsibility. Treat these seed words as if they were the keys to your kingdom—because they are. Do not proceed to the next step without confirming they are safely backed up and stored securely.
+**Carefully** write down the new seed words and store them securely. **Do NOT photograph them, store them digitally, or skip this step.**
+
+> Failing to back up these new 24 seed words is not just careless—it’s reckless. These seed words are your sole key to recovering and maintaining control over your wallet. If you lose them, misspell them, or get them out of order, absolutely no one—literally no one—will be able to help you.
+
+Self-custody means total responsibility. Treat these seed words as if they were the keys to your kingdom—because they are. Do not proceed to the next step without confirming they are safely backed up and stored securely. 
 
 ---
 
