@@ -35,7 +35,11 @@
    ```
    dumphdinfo
    ```
-2. Carefully write down and securely store the new seed words. This step is essential for future recovery.
+2. Carefully copy down the new seed words and store them securely. Do NOT photograph them, or skip this step.
+
+    Failing to back up these new seed words is not just careless—it’s reckless. These seed words are your ultimate key to recovery and control over your wallet. If you lose them, no one—literally no one—can help you.
+
+Self-custody means total responsibility. Treat these seed words as if they were the keys to your kingdom—because they are. Do not proceed to the next step without confirming they are safely backed up and stored securely.
 
 ---
 
