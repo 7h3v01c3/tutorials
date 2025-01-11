@@ -1,4 +1,4 @@
-### **Windows Steps to Migrate funds from an old seed(wallet) to a new seed (wallet) in and existing Divi Desktop**
+### **Windows Steps to Migrate funds from an old seed(wallet) to a new seed (wallet) in an existing Divi Desktop**
 
 #### **1. Access the Debug Console**
 1. Open the **Divi Desktop Application**.
