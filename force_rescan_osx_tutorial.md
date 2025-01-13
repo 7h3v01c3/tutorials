@@ -21,7 +21,8 @@ Let’s get started!
      ~/Library/Application Support/
      ```
      - Click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the dialong box.
-Example:
+     
+     Example:
      Open AppData / Roaming in File Explorer as shown below:
 
      ![Finder Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/finder.jpg)
@@ -33,7 +34,8 @@ Example:
 4. Delete the `divitxs.db` file:
    - Inside the **Divi Desktop** folder, find and delete the `divitxs.db` file.  
    - If the file extension isn't visible, it may appear as `divitxs`.
- Example:
+
+     Example:
      Delete the divitxs.db file:
 
      ![Delete divitxs Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/divi_desktop_directory.jpg)
@@ -47,11 +49,12 @@ Example:
 
 1. Open the Terminal application:
    - Use Spotlight Search by pressing `Command + Space`, type **Terminal**, and press **Enter**.
- Example:
+
+     Example:
      Open Spotlight Example:
      ![Spotlight Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/spotlight.jpg)
 
- Example:
+     Example:
      Search and Select Terminal Example:
      ![Spotlight Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/search_using_spotlight.jpg)
 
@@ -61,7 +64,8 @@ Example:
      cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked
      ```
      - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
-Example:
+     
+     Example:
      Path Example:
 
      ![Divi Directory Path Example](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/past_in_path_to_osx_directory.jpg)
@@ -73,7 +77,7 @@ Example:
      ```
      - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
 
-Example:
+     Example:
      Permissions Example:
      ![Permission Example](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/paste_in_permissions.jpg)
 
@@ -84,7 +88,7 @@ Example:
      ```
      - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
 
-Example:
+     Example:
      Permissions Example: 
      You should see output similar to **"DIVI server starting"**.
      ![DIVI server starting example](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/paste_in_force_rescan_command.jpg)
