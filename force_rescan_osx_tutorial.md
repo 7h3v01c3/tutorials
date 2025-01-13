@@ -45,7 +45,7 @@ Let’s get started!
      ```
 
 3. Before running the daemon, make it executable by entering this command and pressing **Enter**: 
-    ```bash
+    ```
 chmod +x *
     ```
 
