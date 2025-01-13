@@ -15,11 +15,8 @@ Let’s get started!
 
 ## **Step A: Prepare for the Force Rescan**
 
-1. **Close the Divi Desktop Application completely.**
-2. Open **Finder** by clicking the Finder icon in your Dock.
-3. Access the hidden Library folder:
-   - In the Finder menu bar, click **Go** > **Go to Folder**.
-   - Type or copy and paste the following, then press **Enter**:
+1. Open Finder and press Command + Shift + G to open the "Go to Folder" dialog.
+2. Type or copy and paste the following, then press **Enter**:
      ```
      ~/Library/Application Support/
      ```
