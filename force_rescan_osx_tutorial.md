@@ -143,6 +143,3 @@ Stay secure, and happy staking! 😊
 
 # **NEVER STORE YOUR SEED WORDS (Seed Phrases, Recovery Phrases) IN A PHOTOGRAPH OR TEXT DOCUMENT (e.g., Photos, Notes, Pages, Google Docs, etc.)—EVER!**
 
---- 
-
-This version includes clear copy-and-paste instructions to guide even less experienced Mac users. Let me know if you need further tweaks!
