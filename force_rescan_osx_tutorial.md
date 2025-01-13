@@ -24,7 +24,7 @@ Let’s get started!
 Example:
      Open AppData / Roaming in File Explorer as shown below:
 
-     ![Finder Screenshot]([https://github.com/7h3v01c3/tutorials/blob/main/images/appdata.png](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/finder.jpg))
+     ![Finder Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/finder.jpg)
 
 3. Locate the **Divi Desktop** folder:
    - Navigate to the `Divi Desktop` directory inside `Application Support`.
@@ -36,7 +36,7 @@ Example:
  Example:
      Delete the divitxs.db file:
 
-     ![Delete divitxs Screenshot]([https://github.com/7h3v01c3/tutorials/blob/main/images/divitxs-db.png](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/divi_desktop_directory.jpg))
+     ![Delete divitxs Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/divi_desktop_directory.jpg)
 
 
 5. Close the Finder window.
@@ -47,6 +47,13 @@ Example:
 
 1. Open the Terminal application:
    - Use Spotlight Search by pressing `Command + Space`, type **Terminal**, and press **Enter**.
+ Example:
+     Open Spotlight Example:
+     ![Spotlight Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/spotlight.jpg)
+
+ Example:
+     Search and Select Terminal Example:
+     ![Spotlight Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/search_using_spotlight.jpg)
 
 2. Navigate to the Divi daemon directory:
    - **Copy and paste** the following command into the Terminal, then press **Enter**:
@@ -54,6 +61,10 @@ Example:
      cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked
      ```
      - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
+Example:
+     Path Example:
+
+     ![Divi Directory Path Example](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/past_in_path_to_osx_directory.jpg)
 
 3. Before running the daemon, make it executable:
    - **Copy and paste** the following command into the Terminal and press **Enter**:
@@ -62,6 +73,10 @@ Example:
      ```
      - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
 
+Example:
+     Permissions Example:
+     ![Permission Example](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/paste_in_permissions.jpg)
+
 4. Run the force rescan command:
    - **Copy and paste** the following command into the Terminal to initiate the rescan and press **Enter**:
      ```bash
@@ -69,7 +84,10 @@ Example:
      ```
      - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
 
-5. You should see output similar to **"DIVI server starting"**.
+Example:
+     Permissions Example: 
+     You should see output similar to **"DIVI server starting"**.
+     ![DIVI server starting example](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/paste_in_force_rescan_command.jpg)
 
 6. Wait for the process to run:
    - Allow the force rescan to run for approximately **5 minutes**.  
