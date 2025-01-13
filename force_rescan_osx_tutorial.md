@@ -15,7 +15,7 @@ Let’s get started!
 
 ## **Step A: Prepare for the Force Rescan**
 
-1. Open Finder and press Command + Shift + G to open the "Go to Folder" dialog.
+1. Open Finder and press `Command + Shift + G` to open the "Go to Folder" dialog.
 2. Type or copy and paste the following, then press **Enter**:
      ```
      ~/Library/Application Support/
