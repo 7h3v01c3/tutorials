@@ -16,20 +16,21 @@ Let’s get started!
 ## **Step A: Prepare for the Force Rescan**
 
 1. Open Finder and press `Command + Shift + G` to open the "Go to Folder" dialog.
-2. Type or copy and paste the following, then press **Enter**:
+2. Type or **copy and paste** the following command into the dialog, then press **Enter**:
      ```
      ~/Library/Application Support/
      ```
+     - Click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the dialong box.
 
-4. Locate the **Divi Desktop** folder:
+3. Locate the **Divi Desktop** folder:
    - Navigate to the `Divi Desktop` directory inside `Application Support`.
    - Open the **Divi Desktop** folder (not `DIVI`).
 
-5. Delete the `divitxs.db` file:
+4. Delete the `divitxs.db` file:
    - Inside the **Divi Desktop** folder, find and delete the `divitxs.db` file.  
    - If the file extension isn't visible, it may appear as `divitxs`.
 
-6. Close the Finder window.
+5. Close the Finder window.
 
 ---
 
@@ -39,26 +40,31 @@ Let’s get started!
    - Use Spotlight Search by pressing `Command + Space`, type **Terminal**, and press **Enter**.
 
 2. Navigate to the Divi daemon directory:
-   - Copy and paste the following command into the Terminal and press **Enter**:
+   - **Copy and paste** the following command into the Terminal, then press **Enter**:
      ```bash
      cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked
      ```
+     - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
 
-3. Before running the daemon, make it executable by entering this command and pressing **Enter**: 
-    ```
-    chmod +x *
-    ```
+3. Before running the daemon, make it executable:
+   - **Copy and paste** the following command into the Terminal and press **Enter**:
+     ```bash
+     chmod +x *
+     ```
+     - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
 
 4. Run the force rescan command:
-   - Execute the following command in the Terminal to initiate the rescan and press **Enter**:
+   - **Copy and paste** the following command into the Terminal to initiate the rescan and press **Enter**:
      ```bash
      ./divid -force_rescan=1
      ```
+     - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
 
-5. You should see output similar to **"Divi Server Starting"**.
+5. You should see output similar to **"DIVI server starting"**.
 
 6. Wait for the process to run:
-   - Allow the force rescan to run for approximately **5 minutes**. Do not close the Terminal during this process.
+   - Allow the force rescan to run for approximately **5 minutes**.  
+   - Do not close the Terminal during this process.
    - Proceed to **Step C** after waiting.
 
 ---
@@ -76,10 +82,13 @@ Let’s get started!
 1. Set a **strong and secure password** for your wallet if you haven’t already:
    - Open **Settings** in the Divi Desktop Application and configure a password for added security.
 2. Close the Divi Desktop Application to complete the process.
-3. Exit the Terminal by typing the following command and pressing **Enter**:
-    ```bash
-    exit
-    ```
+3. Exit the Terminal:
+   - **Type or copy and paste** the following command into the Terminal and press **Enter**:
+     ```bash
+     exit
+     ```
+     - To copy, highlight the command above and press **Command + C**. To paste, press **Command + V** in the Terminal.
+
    Alternatively, you can simply close the Terminal window.
 
 ---
@@ -99,7 +108,10 @@ If you encounter issues or need assistance, join the Divi community for real-tim
 
 Stay secure, and happy staking! 😊
 
-
+---
 
 # **NEVER STORE YOUR SEED WORDS (Seed Phrases, Recovery Phrases) IN A PHOTOGRAPH OR TEXT DOCUMENT (e.g., Photos, Notes, Pages, Google Docs, etc.)—EVER!**
 
+--- 
+
+This version includes clear copy-and-paste instructions to guide even less experienced Mac users. Let me know if you need further tweaks!
