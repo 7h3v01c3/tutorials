@@ -106,6 +106,3 @@ Stay secure, and happy staking! 😊
 
 # **NEVER STORE YOUR SEED WORDS (Seed Phrases, Recovery Phrases) IN A PHOTOGRAPH OR TEXT DOCUMENT (e.g., Photos, Notes, Pages, Google Docs, etc.)—EVER!**
 
---- 
-
-This version adheres to GitHub Markdown best practices and ensures clarity and readability for users. Let me know if you'd like additional edits!
