@@ -21,6 +21,10 @@ Let’s get started!
      ~/Library/Application Support/
      ```
      - Click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the dialong box.
+Example:
+     Open AppData / Roaming in File Explorer as shown below:
+
+     ![Finder Screenshot]([https://github.com/7h3v01c3/tutorials/blob/main/images/appdata.png](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/finder.jpg))
 
 3. Locate the **Divi Desktop** folder:
    - Navigate to the `Divi Desktop` directory inside `Application Support`.
@@ -29,6 +33,11 @@ Let’s get started!
 4. Delete the `divitxs.db` file:
    - Inside the **Divi Desktop** folder, find and delete the `divitxs.db` file.  
    - If the file extension isn't visible, it may appear as `divitxs`.
+ Example:
+     Delete the divitxs.db file:
+
+     ![Delete divitxs Screenshot]([https://github.com/7h3v01c3/tutorials/blob/main/images/divitxs-db.png](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/divi_desktop_directory.jpg))
+
 
 5. Close the Finder window.
 
