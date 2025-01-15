@@ -61,9 +61,20 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
 
      ![Rename wallet.dat Screenshot](images/osx/recovery/rename_wallet.dat.jpg)
 
-7. Now, move back up one level in finder and enter into the **Divi Desktop** folder.
-8. Delete **only** the `divitxs.db` file in the Divi Desktop folder.
-9. Close the Finder window.
+6. Now, move back up one level in finder and enter into the **Divi Desktop** folder.
+   - Navigate to the `Divi Desktop` directory inside `Application Support`.
+   - Open the **Divi Desktop** folder (not `DIVI`).
+
+7. Delete the `divitxs.db` file:
+   - Inside the **Divi Desktop** folder, find and delete the `divitxs.db` file.  
+   - If the file extension isn't visible, it may appear as `divitxs`.
+
+     Example:
+     Delete the divitxs.db file:
+
+     ![Delete divitxs Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/divi_desktop_directory.jpg)
+
+8. Close the Finder window.
 
 ---
 
