@@ -47,11 +47,18 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
 
      ![Finder Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/finder.jpg)
 3. Navigate to the **DIVI** folder (not Divi Desktop).
-4. Rename `wallet.dat` to `wallet_backup.dat`.
+   - Locate wallet.dat
+
+     Example:
+     Open DIVI foloder and locate wallet.dat:
+
+     ![wallet.dat Screenshot](images/osx/recovery/DIVI_folder.jpg)
+     
+5. Rename `wallet.dat` to `wallet_backup.dat`.
    *Note: macOS may ask for permission.* If you make a mistake with the name or extension, simply start over, then proceed to step 5.
-5. Now, move back up one level in finder and enter into the **Divi Desktop** folder.
-6. Delete **only** the `divitxs.db` file in the Divi Desktop folder.
-7. Close the Finder window.
+6. Now, move back up one level in finder and enter into the **Divi Desktop** folder.
+7. Delete **only** the `divitxs.db` file in the Divi Desktop folder.
+8. Close the Finder window.
 
 ---
 
