@@ -36,7 +36,16 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
 ## Step A: Prepare for Wallet Recovery
 
 1. Open Finder and press `Command + Shift + G` to open the "Go to Folder" dialog.
-2. Enter `~/Library/Application Support` and click "Go."
+2. Type or **copy and paste** the following command into the dialog, then press **Enter**:
+     ```
+     ~/Library/Application Support/
+     ```
+     - Click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the dialong box.
+     
+     Example:
+     Open AppData / Roaming in File Explorer as shown below:
+
+     ![Finder Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/finder.jpg)
 3. Navigate to the **DIVI** folder (not Divi Desktop).
 4. Rename `wallet.dat` to `wallet_backup.dat`.
    *Note: macOS may ask for permission.* If you make a mistake with the name or extension, simply start over, then proceed to step 5.
