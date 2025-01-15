@@ -56,28 +56,53 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
      
 5. Rename `wallet.dat` to `wallet_backup.dat`.
    *Note: macOS may ask for permission.* If you make a mistake with the name or extension, simply start over, then proceed to step 5.
-6. Now, move back up one level in finder and enter into the **Divi Desktop** folder.
-7. Delete **only** the `divitxs.db` file in the Divi Desktop folder.
-8. Close the Finder window.
+   Example:
+   Rename wallet.dat by using CRTL + Click the file or with wallet.data highlighted chose file > rename in Finder:
+
+     ![Rename wallet.dat Screenshot](images/osx/recovery/rename_wallet.dat.jpg)
+
+7. Now, move back up one level in finder and enter into the **Divi Desktop** folder.
+8. Delete **only** the `divitxs.db` file in the Divi Desktop folder.
+9. Close the Finder window.
 
 ---
 
 ## Step B: Recover Your Divi Wallet
 
 1. Open the **Terminal** application (you can find it in Applications > Utilities or search using Spotlight).
-2. Navigate to the Divi daemon folder using the path below:
-    ```
-    cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
-    ```
-3. Before running the daemon, make it executable by entering:
-    ```
-    chmod +x *
-    ```
-4. Now, run the following recovery command, replacing `word1` through `word12` with your actual seed words:
+2. Navigate to the Divi daemon directory:
+   - **Copy and paste** the following command into the Terminal, then press **Enter**:
+     ```bash
+     cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked
+     ```
+     - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
+     
+     Example:
+     Path Example:
+
+     ![Divi Directory Path Example](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/past_in_path_to_osx_directory.jpg)
+
+3. Before running the daemon, make it executable:
+   - **Copy and paste** the following command into the Terminal and press **Enter**:
+     ```bash
+     chmod +x *
+     ```
+     - To copy, click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the Terminal.
+
+     Example:
+     Permissions Example:
+     ![Permission Example](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/paste_in_permissions.jpg)
+
+4. Now, run the following recovery command, replacing `word1` through `word12` with your actual seed words and hit ENTER!
     ```
     ./divid -mnemonic="word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12" -force_rescan=1 &
     ```
     Make sure your seed words are all lowercase, with a single space between each word.
+   Example:
+   Either copy to a note you dont save or paste on command lined and edit using right and left arrow keys.
+
+     ![Replace with your seed words Screenshot](images/osx/recovery/update_words_to_match_yours.gif)
+   
 
 **Note:** If you encounter the error:  
 *Error: There is no RPC client functionality in divid anymore. Use the divi-cli utility instead.*,  
