@@ -41,7 +41,7 @@ This isn’t “strange.” It’s the blockchain doing what it’s supposed to 
 
 Divi’s staking process creates UTXOs every time it competes to mine a block. In doing so, it batches a portion of your funds to validate the network and secure the blockchain.
 
-So no, your wallet isn’t broken—it’s doing exactly what it was designed to do. The next time you see one of these transactions, instead of scratching your head, click the **transaction link**. You’ll start to understand how Divi’s staking system competes with UTXO-based virtualized mining systems like those of other blockchains.
+So no, your wallet isn’t broken—it’s doing exactly what it was designed to do. The next time you see one of these transactions, instead of scratching your head, click the **transaction link**. You’ll start to understand how Divi’s consensus system is a UTXO-based virtualized mining and why the daemon in divi has a highly modified Bitcoin Miner, with heritage related to Satoshi's Original miner, in the core code its called Divi Miner.
 
 Congratulations—you’ve just leveled up your crypto knowledge. **Mind blown. 💥**
 
