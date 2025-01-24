@@ -104,8 +104,7 @@ This is the easiest, most user-friendly method to create a new wallet and move o
 
 ### Step 5: Clean Up the Intermediate Machine
 1. **Uninstall Divi Desktop:**
-   - Repeat the uninstall process on the intermediate machine to remove Divi Desktop completely.
-2. **Optional:** Reinstall later if needed or keep it as a backup machine.
+   - Repeat the uninstall process from Step 4 (1), on the intermediate machine to remove Divi Desktop completely.
 
 ---
 
