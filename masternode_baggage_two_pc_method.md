@@ -22,7 +22,8 @@ Here’s an example to make it crystal clear:
 
 ### Example: Staking with UTXOs
 - Imagine you have a **10,000 DIVI UTXO** in your wallet.
-- When staking, your wallet spends the 10,000 DIVI to compete for block validation.
+- When staking, your your daemon used the 10,000 DIVI UTXO to create a hash, which **WON!** to compete for block validation.
+- This UTXO that WON now needs to **PROVE** its ability to produce the matching hash, this is done during the notarization process - This is the **PROOF** of True PoS.
 - If successful, it **sends the 10,000 DIVI back to you** (to the same address) and adds the staking reward—let’s say 581 DIVI—to the total.
 
 So, on-chain, it looks like this:
