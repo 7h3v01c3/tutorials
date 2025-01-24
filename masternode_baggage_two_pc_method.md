@@ -71,7 +71,7 @@ This is the easiest, most user-friendly method to create a new wallet and move o
 ### Step 1: Grab a Second Computer (Intermediate Machine)
 1. **Install Divi Desktop Wallet** on the intermediate machine.
 2. Generate a **new 24-word seed phrase** during setup.
-   - Write it down—on **paper**, not in your Notes app or cloud storage.
+   - Store it securely in a method that ensures long-term safety, restricted and secure access (not photographs or text files).
    - These 24 words are your new wallet—not the app, not the device, but the words.
 
 ### Step 2: Sync the New Wallet
