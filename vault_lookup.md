@@ -104,9 +104,10 @@ This will return **technical information** about your vault, including each indi
 ```
 
 ### **Understanding the Vault Details**
-Each vault is displayed in `"AllVaults"` and contains:  
+Each vault is displayed in top `"AllVaults"` and contains:  
 
-- **"vault"** → This is the **Vault ID** (Base58 address format).  
+- **"vault"** → This is the Vault Name as recorded on the blockchain. You may have more than one vault, and each will have a unique identifier.
+                This identifier is not used like a regular address for transactions but is your staking vault and its associated funds.
 - **"value"** → This is the **total amount stored in the vault**.  
 - **"txids"** → A list of **transaction IDs (TXIDs)** linked to the vaulted funds. If you have multiple vaults, there will be **multiple vault entries** in `"AllVaults"`.
 
