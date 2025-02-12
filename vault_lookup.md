@@ -56,7 +56,7 @@ If you add **Vaulted** and **Spendable** together, the sum should match your **t
 
 ---
 
-## Step 4 (Optional): Digging Deeper with a More Detailed Command  
+## Step 4: Advanced - Digging Deeper with Vault Details  
 
 If you want **more details** about your vault—including **transaction IDs (TXIDs)** that are part of it—run the following command:  
 
@@ -64,15 +64,63 @@ If you want **more details** about your vault—including **transaction IDs (TXI
 getcoinavailability true
 ```
 
-This will return more **technical information** about your vault, including individual transactions that make up your **vaulted** balance. If you're interested in learning more, this is a great way to **become informed** and understand how Divi Vaults operate.
+This will return **technical information** about your vault, including each individual **vault, value, and transaction IDs (TXIDs)**.
+
+### Example Output:
+```json
+{
+  "Vaulted": {
+    "AllVaults": [
+      {
+        "vault": "D7hHqCYV4hL73gmvA8YVpmvEBcCxG8TT1E:DK4meuJcJWKew2SLCJxEptB3HwvszXvbFK",
+        "value": 1000000,
+        "txids": [
+          "245638dbbe5dbdeabd5d8428e688a09ee0f9a128d2e693f3ad4ac825ea2c3e64",
+          "ffac5f3e3d693d5c86a8e500409feda36348c1c4ccfe0341a1b25042d31a62b8",
+          "73394ff41ef57c9c022ea9d8eaf9868daff2c0fa932df27b5a662700d0a46afc",
+        ]
+      },
+      {
+        "vault": "DCEwUMRW8FZJs8R18KDAVtHi1X4mKmaiTX:DDeL1nSGWnWYXrRPcomS4d3pk9RWg2MR18",
+        "value": 138176.99977250,
+        "txids": [
+          "761c635af38ddc68cd9d60cb6ef5a8430149f92e2127a4ac06bd1bcf74bad1a4",
+          "2701bc95ff71652655b9b7b3487d3af28a7d4be9561e0b5396cf12b928dd5a1d",
+          "7a2e6a1a94dbfc874794fab86ec8f9a3065780e3318ff366de28d0202c13273a"
+        ]
+      }
+    ],
+    "NonVaults": 0
+  },
+  "Stakable": {
+    "AllVaults": [],
+    "NonVaults": 57109.1544067
+  },
+  "Spendable": {
+    "AllVaults": [],
+    "NonVaults": 57109.1544067
+  }
+}
+```
+
+### **Understanding the Vault Details**
+Each vault is displayed in `"AllVaults"` and contains:  
+
+- **"vault"** → This is the **Vault ID** (Base58 address format).  
+- **"value"** → This is the **total amount stored in the vault**.  
+- **"txids"** → A list of **transaction IDs (TXIDs)** linked to the vaulted funds. If you have multiple vaults, there will be **multiple vault entries** in `"AllVaults"`.
+
+#### **Checking Your Vault Balances**
+1. **If you only want to know if you have vaulted funds**, just use `getcoinavailability`.  
+2. **If you want full vault details**, including individual TXIDs, use `getcoinavailability true`.
 
 ---
 
 ## Final Notes  
 
-- **If "Vaulted" shows a balance greater than 0**, this means your funds are still in a vault and working inside a **Divi Vault Special Smart Contract.**  
+- **If "Vaulted" shows a balance greater than 0**, this means your funds are still in a vault and working inside a **Divi Vault Special Smart Contract**.  
 - **If "Vaulted" is 0**, your funds are either **stakable or fully spendable**.  
-- **Checking for a vault first is key**: Many users assume they still have funds stuck when in reality, they may already be vaulted.  
+- **Checking for a vault first is key**: Many users assume they still have funds stuck when in reality, they are always soveriegnly in control.  
 
 ---
 
@@ -89,5 +137,8 @@ If you’re still unsure about your vault status or next steps, you can:
 - **Consult TheVoice for personalized guidance**:  
   👉 [Schedule with TheVoice](https://www.cal.com/thevoice)  
 
-This method ensures **you know exactly where your funds are and what they are doing.**  
-Taking the time to familiarize yourself with these tools will help you manage your Divi assets more confidently. 🚀
+---
+
+## 🚀 Take Control of Your Vaults
+By following these steps, you’ll **know exactly where your funds are and what they are doing**.  
+Taking the time to familiarize yourself with these tools will help you **manage your Divi assets with confidence**.
