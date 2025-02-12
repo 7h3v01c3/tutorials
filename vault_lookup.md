@@ -1,4 +1,4 @@
-# How to Identify Your Divi Vault(s) Using the Debug Console in Divi Desktop
+# Identify Your Divi Vault(s) in Debug Console
 
 If you are unsure whether your funds are **vaulted, stakable, or fully spendable**, you can check directly in **Divi Desktop** using the **Debug Console**.  
 This guide will show you how to **view your Divi Vault Special Smart Contracts (DVSSC)** and understand the breakdown of your balances.
