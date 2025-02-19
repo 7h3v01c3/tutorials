@@ -68,7 +68,7 @@ For this process, you will need:
 
 6. **Start the Wallet**
    - Open Divi Desktop Wallet.
-   - Your old wallet should now be restored on the new computer.
+   - Your wallet should now be restored but confirm!
 
 7. **Confirm**
    - View **Balances** and **History**.
