@@ -26,9 +26,9 @@ For this process, you will need:
 2. **Open the Hidden `.divi` Folder**
    - Open your **File Manager**.
    - Press **CTRL + H** to reveal hidden folders.
-   - Navigate to:
+   - Open:
      ```
-     ~/.divi
+     .divi
      ```
 
 3. **Copy the Following Files and Folders:**
@@ -53,9 +53,9 @@ For this process, you will need:
 3. **Open the Hidden `.divi` Folder**
    - Open your **File Manager**.
    - Press **CTRL + H** to reveal hidden folders.
-   - Navigate to:
+   - Open:
      ```
-     ~/.divi
+     .divi
      ```
 
 4. **Delete the Following Files and Folders:**
