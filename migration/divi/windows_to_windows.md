@@ -1,4 +1,4 @@
-# **Divi Wallet Migration (Windows to Windows)**
+# **Divi Desktop Migration (Windows to Windows)**
 
 ## **Prerequisites**
 For this process, you will need:
