@@ -1,4 +1,4 @@
-# **Divi Wallet Migration (Linux to Linux)**
+# **Divi Desktop Wallet Migration (Linux to Linux)**
 
 ## **Prerequisites**
 For this process, you will need:
