@@ -11,7 +11,9 @@ For this process, you will need:
 1. **Download and Install the Divi Wallet**
    - Go to [Divi Project Downloads](https://diviproject.org/downloads).
    - Download and install the latest version of the wallet.
-   - Open the wallet and **let it fully sync** before proceeding.
+   - Open the Divi Desktop and **let it fully sync** before proceeding.
+   - *You do not need to backup or encrypt at this step.*
+
 
 ---
 
