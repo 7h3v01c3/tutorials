@@ -69,8 +69,14 @@ For this process, you will need:
    - Your old wallet should now be restored on the new computer.
 
 8. **Troubleshooting**
-   - If you do not see your balance or transaction history, **you missed a step**.
-   - **Slow down** – this process should only take a couple minutes, but if it's your first time, read each line carefully.
+   - If you do not see your balance or transaction history:
+     - Check your seed words:
+       - Open **Settings** (Gear Icon on the left).
+       - Open **Security Tab**.
+       - Click **"Backup"** (Backup seed).
+       - Review to make sure they match your source wallet.
+       - If they don’t match, **you missed a step**.
+   - **Slow down** – this process should only take a couple of minutes, but if it's your first time, read each line carefully.
    - Follow the steps slowly and exactly, and you will **learn better** and **become more empowered** in understanding.
 
 ---
