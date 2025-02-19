@@ -1,4 +1,4 @@
-# **Divi Wallet Migration (Mac to Mac)**
+# **Divi Desktop Application Wallet Migration (Mac to Mac)**
 
 ## **Prerequisites**
 For this process, you will need:
