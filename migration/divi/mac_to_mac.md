@@ -67,11 +67,11 @@ For this process, you will need:
 
 6. **Start the Wallet**
    - Open Divi Desktop Wallet.
-   - Your old wallet should now be restored on the new computer.
+   - Your wallet should now be restored but confirm!
 
 7. **Confirm**
    - View **Balances** and **History**.
-   - Your old wallet should now be restored on the new Mac.
+   - Your wallet should now be restored on the new Mac.
 
 8. **Troubleshooting**
    - If you do not see your balance or transaction history, **you missed a step**.
