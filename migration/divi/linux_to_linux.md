@@ -64,7 +64,10 @@ For this process, you will need:
    - `wallet.dat`
 
 5. **Copy and Paste from the USB Drive**
-   - Transfer the backed-up files from your USB flash drive into the `.divi` folder on the recipient Linux system.
+   - Transfer the backed-up files from your USB flash drive into the **DIVI** folder on the recipient computer.
+     - `backups` (folder)
+     - `monthlyBackups` (folder)
+     - `wallet.dat`
 
 6. **Start the Wallet**
    - Open Divi Desktop Wallet.
