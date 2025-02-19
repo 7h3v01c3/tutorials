@@ -10,8 +10,8 @@ For this process, you will need:
 ## **Step 1: Prepare the Recipient Computer**
 1. **Download and Install the Divi Wallet**
    - Go to [Divi Project Downloads](https://diviproject.org/downloads).
-   - Download and install the latest version of the wallet.
-   - Open the wallet and **let it fully sync** before proceeding.
+   - Open the Divi Desktop and **let it fully sync** before proceeding.
+   - *You do not need to backup or encrypt at this step.*
 
 ---
 
@@ -58,7 +58,7 @@ For this process, you will need:
 
 6. **Start the Wallet**
    - Open Divi Desktop Wallet.
-   - Your old wallet should now be restored on the new computer.
+   - Your wallet should now be restored but confirm!
 
 7. **Confirm**
    - View **Balances** and **History**.
