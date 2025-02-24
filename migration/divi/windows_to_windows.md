@@ -58,6 +58,7 @@ For this process, you will need:
      - `backups` (folder)
      - `monthlyBackups` (folder)
      - `wallet.dat`
+   - Close **File Explorer**
 
 
 6. **Start Divi Desktop Application**
