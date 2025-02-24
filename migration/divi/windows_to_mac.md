@@ -64,8 +64,8 @@ For this process, you will need:
      - `monthlyBackups` (folder)
      - `wallet.dat`
 
-6. **Start the Wallet**
-   - Open Divi Desktop Wallet.
+6. **Start Divi Desktop Application**
+   - Open Divi Desktop Application.
    - Your wallet should now be restored but confirm!
 
 7. **Confirm**
