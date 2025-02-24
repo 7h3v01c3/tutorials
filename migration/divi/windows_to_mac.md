@@ -63,6 +63,7 @@ For this process, you will need:
      - `backups` (folder)
      - `monthlyBackups` (folder)
      - `wallet.dat`
+   - Close **Finder**
 
 6. **Start Divi Desktop Application**
    - Open Divi Desktop Application.
