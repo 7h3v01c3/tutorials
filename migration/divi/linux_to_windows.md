@@ -19,7 +19,7 @@ For this process, you will need:
 
 ## **Step 2: Backup the Source Linux System**
 1. **Close Divi Desktop Completely**
-   - Click the **X** in the top right corner to close the application.
+   - Click the **X** in the top left corner to close the application.
    - *Ensure Divi Desktop is fully closed before continuing.*
 
 2. **Open the Hidden `.divi` Folder**
