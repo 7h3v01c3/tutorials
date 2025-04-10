@@ -121,18 +121,21 @@ this usually indicates a syntax error. Review your command for missing or incorr
 
 
 5. Wait a few moments, then open the Divi Desktop Application.
-
+   - Proceed to Final Steps
 ---
 
 ## Final Steps:
 
-**DON'T FORGET TO SET A PASSWORD**
-
 1. Let the Divi Desktop Application sync completely and wait for your coins to appear in the **Total Balance** (top left).
-2. Set a Password for Divi Desktop (follow the process).
-3. Close the Divi Desktop Application.
-4. Close the Terminal.
+2. After Fully Synced, Fully Confirmed Balance
+   A. Close Divi Desktop
+   B. Close Terminal
+3. Wait 30 Seconds
+4. Restart Divi Desktop
+5. Allow to sync fully (balance showing, fully synced in bottom left corner)
+**DON'T FORGET TO SET A PASSWORD**
+6. Set a password
 
-> **Note:** For the Final Steps, step 3 must happen before closing the terminal (step 4)—do not change the order!
+> **Note:** For the Final Steps, Step 2 is process order, dont change or mix.
 
 You're all set at recovering your Divi wallet in the Divi Desktop Application on macOS.
