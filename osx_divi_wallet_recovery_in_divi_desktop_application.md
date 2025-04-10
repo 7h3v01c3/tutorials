@@ -124,7 +124,7 @@ this usually indicates a syntax error. Review your command for missing or incorr
    - Proceed to Final Steps
 ---
 
-## Final Steps:
+## 🎯 Final Steps
 
 1. Let the Divi Desktop Application sync completely and wait for your coins to appear in the **Total Balance** (top left).
 2. After Fully Synced, Fully Confirmed Balance
