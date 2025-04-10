@@ -138,8 +138,6 @@ A. Close Divi Desktop Application
 
 > **Note:** For the Final Steps, Step 2 is process order, dont change or mix.
 
-You're all set at recovering your Divi wallet in the Divi Desktop Application on macOS.
-
 ---
 
 > ✅ You're now fully recovered on Ubuntu like a pro. No GUI sorcery — just clean CLI power.
