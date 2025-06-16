@@ -10,7 +10,7 @@ This guide walks you through restoring a broken `YourWalletFileName.dat` wallet 
 
 ---
 
-### 🔍 Step 2: Open the Wallet Folder
+### 🔍 Step 2: Open the DIVI directory
 
 1. Open **Finder** (click the blue smiley face icon in your dock).
 
