@@ -43,7 +43,7 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
      - Click the copy icon to the right or highlight the command above and press Command + C. To paste, press Command + V in the dialong box.
      
      Example:
-     Open AppData / Roaming in File Explorer as shown below:
+     Open AppData / Roaming in Finder Search as shown below:
 
      ![Finder Screenshot](https://github.com/7h3v01c3/tutorials/blob/main/images/osx/force_rescan/finder.jpg)
 3. Navigate to the **DIVI** folder (not Divi Desktop).
