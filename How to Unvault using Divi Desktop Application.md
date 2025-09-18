@@ -72,7 +72,7 @@
 ### Unvault the Full Amount
 
 - **For vaults under 5 million DIVI**:
-  - In the **Debug Console**, enter the following command on the command line to unvault the entire amount, replacing `<your_address_from_unvault_document>` with the address copied from your **unvault document**:
+  - In the **Debug Console**, enter the following command on the command line to unvault the entire amount, replacing `<your_address_from_unvault_document>` with the address used from your **unvault test** in step 10:
     ```bash
     reclaimvaultfunds <your_address_from_unvault_document> 1 "sweep_funds"
     ```
