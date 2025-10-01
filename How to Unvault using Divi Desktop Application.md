@@ -109,3 +109,5 @@
   - `help` – Displays a list of general commands.
   - `getcoinavailability true` – Provides details on available UTXOs.
   - `reclaimvaultfunds <address_from_unvault_document> <amount> ["sweep_funds"]` – Unvaults specified amounts. Use `"sweep_funds"` to move all available funds to the address.
+
+  💡 **If this tutorial helped you, consider supporting the author.** All guides are created through voluntary effort — your donation keeps them coming. 👉 [Support here](https://www.thevoice.dev/#donations)
