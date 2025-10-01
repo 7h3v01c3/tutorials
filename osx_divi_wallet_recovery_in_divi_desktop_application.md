@@ -136,6 +136,8 @@ this usually indicates a syntax error. Review your command for missing or incorr
 **DON'T FORGET TO SET A PASSWORD**
 6. Set a password
 
+💡 **If this tutorial helped you, consider supporting the author.** All guides are created through voluntary effort — your donation keeps them coming. 👉 [Support here](https://www.thevoice.dev/#donations)
+
 > **Note:** For the Final Steps, Step 2 is process order, dont change or mix.
 
 You're all set at recovering your Divi wallet in the Divi Desktop Application on macOS.
