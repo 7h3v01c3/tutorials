@@ -72,4 +72,6 @@ cd %appdata%/"Divi Desktop"/divid/unpacked/divi_win_64
 
 > **Note:** For the Final Steps, step 3 must happen before closing the terminal (step 4)—do not change the order!
 
+💡 **If this tutorial helped you, consider supporting the author.** All guides are created through voluntary effort — your donation keeps them coming. 👉 [Support here](https://www.thevoice.dev/#donations)
+
 You're all set at recovering your Divi wallet in the Divi Desktop Application.
