@@ -138,6 +138,7 @@ If you’re still unsure about your vault status or next steps, you can:
   👉 [Schedule with TheVoice](https://www.cal.com/thevoice)  
 
 ---
+💡 **If this tutorial helped you, consider supporting the author.** All guides are created through voluntary effort — your donation keeps them coming. 👉 [Support here](https://www.thevoice.dev/#donations)
 
 ## 🚀 Take Control of Your Vaults
 By following these steps, you’ll **know exactly where your funds are and what they are doing**.  
