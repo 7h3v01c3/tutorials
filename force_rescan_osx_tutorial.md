@@ -1,5 +1,8 @@
 # **Mac: Force Rescan on an Existing Seed-Restored Wallet**
 
+<sub>📝 Tutorials are voluntary & kept free by donations — see bottom for support.</sub>
+
+
 This guide will walk you through performing a `-force_rescan=1` on an **existing wallet** in the Divi Desktop Application on macOS. This process is useful if your restored wallet isn't showing your coins or transactions after syncing.
 
 Let’s get started!
