@@ -91,3 +91,5 @@ For this process, you will need:
 
 To remove Divi Desktop and Wallet files from the source computer, now that you have migrated, follow this link.
 [Nuke It!](https://github.com/7h3v01c3/tutorials/blob/main/nuke_it/divi/remove_divi_desktop.md)
+
+💡 **If this tutorial helped you, consider supporting the author.** All guides are created through voluntary effort — your donation keeps them coming. 👉 [Support here](https://www.thevoice.dev/#donations)
