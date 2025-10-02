@@ -1,6 +1,8 @@
 # **DO NOT EVER SAVE YOUR SEED WORDS (seed phrases, recovery phrases) IN A TEXT DOCUMENT - EVER!**
 
 ## Windows Recovery of Divi Wallet in Divi Desktop Application
+<sub>📝 Tutorials are voluntary & kept free by donations — see bottom for support.</sub>
+
 
 ---
 
