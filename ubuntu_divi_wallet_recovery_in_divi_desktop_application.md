@@ -2,6 +2,8 @@
 
 # # 🐧 Ubuntu Recovery of Divi Wallet in Divi Desktop Application
 
+<sub>📝 Tutorials are voluntary & kept free by donations — see bottom for support.</sub>
+
 ---
 
 **Make sure the Divi Desktop Application is closed before starting.**
