@@ -140,6 +140,8 @@ A. Close Divi Desktop Application
 
 > **Note:** For the Final Steps, Step 2 is process order, dont change or mix.
 
+💡 **If this tutorial helped you, consider supporting the author.** All guides are created through voluntary effort — your donation keeps them coming. 👉 [Support here](https://www.thevoice.dev/#donations)
+
 ---
 
 > ✅ You're now fully recovered on Ubuntu like a pro. No GUI sorcery — just clean CLI power.
