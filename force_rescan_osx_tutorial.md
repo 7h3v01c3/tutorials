@@ -143,3 +143,5 @@ Stay secure, and happy staking! 😊
 
 # **NEVER STORE YOUR SEED WORDS (Seed Phrases, Recovery Phrases) IN A PHOTOGRAPH OR TEXT DOCUMENT (e.g., Photos, Notes, Pages, Google Docs, etc.)—EVER!**
 
+💡 **If this tutorial helped you, consider supporting the author.** All guides are created through voluntary effort — your donation keeps them coming. 👉 [Support here](https://www.thevoice.dev/#donations)
+
