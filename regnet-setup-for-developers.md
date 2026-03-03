@@ -25,7 +25,7 @@ REGNET/
 
 | OS      | Node root (create these) | Data directory (use with -datadir) |
 |---------|---------------------------|-------------------------------------|
-| Windows | `%APPDATA%\DIVI\regnet\node1` | `%APPDATA%\DIVI\REGNET\node1\data` |
+| Windows | `%APPDATA%\DIVI\REGNET\node1` | `%APPDATA%\DIVI\REGNET\node1\data` |
 | macOS   | `~/Library/Application Support/DIVI/REGNET/node1` | `~/Library/Application Support/DIVI/REGNET/node1/data` |
 | Linux   | `~/.divi/REGNET/node1` | `~/.divi/REGNET/node1/data` |
 
