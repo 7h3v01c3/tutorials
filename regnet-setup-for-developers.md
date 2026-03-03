@@ -1,6 +1,6 @@
 # Divi Regnet Setup for Developers
 
-Walkthrough for running one or two Divi nodes in regnet on a single machine. Use this for integration development, RPC experiments, or ZMQ testing without touching mainnet or testnet.
+Walkthrough for running one or more Divi nodes in regnet on a single machine. Use this for integration development, RPC experiments, or ZMQ testing without touching mainnet or testnet.
 
 ## Prerequisites
 
