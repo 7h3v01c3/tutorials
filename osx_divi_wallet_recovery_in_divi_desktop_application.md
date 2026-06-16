@@ -52,7 +52,7 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
    - Locate wallet.dat
 
      Example:
-     Open DIVI foloder and locate wallet.dat:
+     Open DIVI folder and locate wallet.dat:
 
      ![wallet.dat Screenshot](images/osx/recovery/DIVI_folder.jpg)
      
