@@ -1,87 +1,165 @@
-(Windows) How to do a proper manual backup of your wallet files.
-Backup Divi Desktop Wallet to USB Stick or Drive (Windows 10 & 11)
-⚙️ What You’ll Need:
+# How to Manually Back Up Your Divi Wallet Files on Windows
 
-    ✅ One USB stick or external hard drive with at least 1 GB of free space
+## Backup Divi Desktop Wallet to a USB Stick or External Drive
 
-    ✅  A few minutes and focus—you’re backing up your wallet files.
+**Applies to:** Windows 10 and Windows 11
 
-    ✅  Store the backup somewhere safe and secure.
+---
 
+## What You’ll Need
 
-A secure, offline USB backup (preferably with duplicates) gives you a “frozen-in-time” copy of your wallet for easy migration, crash protection, and faster recovery than seed phrases alone—which, while mandatory, can take extra time or effort—making a USB backup a real time- and headache-saver. 
+* One USB stick or external hard drive with at least **1 GB of free space**
+* A few minutes of focus
+* A safe and secure place to store your backup
 
+A secure offline USB backup, preferably with duplicates, gives you a “frozen-in-time” copy of your wallet files. This can help with easy migration, crash protection, and faster recovery than seed phrases alone.
 
+Seed phrases are still mandatory, but restoring from them can sometimes take extra time or effort. A USB backup can save you time and frustration.
 
-    Before You Begin: Prepare Your Backup Drive
+---
 
-    Insert your USB stick or external hard drive.
-    (Note: Your USB drive may have a different name and show a different drive letter. The example below is for illustration only.)
-    Create a dedicated folder for Divi backups, for example:
+## Before You Begin: Prepare Your Backup Drive
 
-    DIVI-BACKUP
+1. Insert your USB stick or external hard drive.
 
-    Inside that folder, create a subfolder with the current month and year, for example:
+   > **Note:** Your USB drive may have a different name and drive letter. The examples below are for illustration only.
 
-    July-2027
+2. Create a dedicated folder for Divi backups, for example:
 
+   ```text
+   DIVI-BACKUP
+   ```
 
-    Your folder structure should look like this:
+3. Inside that folder, create a subfolder using the current month and year, for example:
 
- USB:\ 
-   └── DIVI-BACKUP\ 
-            └── July-2027\ 
+   ```text
+   July-2027
+   ```
 
+Your folder structure should look like this:
 
-You will be placing the copies of your wallet files and folders (from the steps below) into the Month-Year folder. 
-Six (6) Simple Steps
-1. Exit Divi Desktop Wallet Completely
+```text
+USB:\
+└── DIVI-BACKUP\
+    └── July-2027\
+```
 
-Do not minimize it—make sure it is fully closed.
-Click X to close Divi Desktop Wallet and select Exit to close the application completely.
+You will copy your wallet files and folders into the `Month-Year` folder.
 
-2. Open the Run Box
+Example:
 
-Press Windows Key + R on your keyboard simultaneously.
-This opens the Run window.
+```text
+USB:\DIVI-BACKUP\July-2027\
+```
 
-3. Enter This Command and Click OK or Press Enter:
+---
 
+# Six Simple Steps
+
+## 1. Exit Divi Desktop Wallet Completely
+
+Do not minimize the wallet.
+
+Click the **X** to close Divi Desktop Wallet, then select **Exit** to close the application completely.
+
+---
+
+## 2. Open the Run Box
+
+Press the following keys at the same time:
+
+```text
+Windows Key + R
+```
+
+This opens the **Run** window.
+
+---
+
+## 3. Enter the AppData Command
+
+In the Run window, enter:
+
+```text
 %appdata%
+```
 
-This takes you directly to the AppData Roaming folder.
+Then click **OK** or press **Enter**.
 
-4. Find and Open the Folder Named DIVI
+This takes you directly to the **AppData Roaming** folder.
 
-    NOT Divi Desktop
-    You're looking for the folder just named DIVI.
+---
 
-5. Inside the DIVI Folder, Locate and COPY These Items:
+## 4. Find and Open the `DIVI` Folder
 
-    wallet.dat (this holds your actual wallet data)
+Look for the folder named:
 
-    backups (folder of auto-generated backups)
+```text
+DIVI
+```
 
-    monthlyBackups (longer-term backups)
+> **Important:** Do not open the folder named `Divi Desktop`.
+> You are looking for the folder named exactly `DIVI`.
 
-Important: Do not move them—only copy.
+---
 
-6. Paste into Your Prepared Folder on the USB Drive 
+## 5. Copy the Required Wallet Files and Folders
+
+Inside the `DIVI` folder, locate and **copy** the following three items:
+
+```text
+wallet.dat
+backups
+monthlyBackups
+```
+
+### What These Items Are
+
+* `wallet.dat` — holds your actual wallet data
+* `backups` — contains auto-generated wallet backups
+* `monthlyBackups` — contains longer-term backups
+
+> **Important:** Do not move these items. Only copy them.
+
+---
+
+## 6. Paste the Files into Your USB Backup Folder
+
+Paste all three items into your prepared backup folder on the USB drive.
 
 Example path:
 
+```text
 USB:\DIVI-BACKUP\July-2027\
+```
 
-Paste all three (3) items into that folder.
+You should now have copies of these items in that folder:
 
-✅ That’s It! You’ve Backed Up Your Wallet
+```text
+USB:\DIVI-BACKUP\July-2027\
+├── wallet.dat
+├── backups\
+└── monthlyBackups\
+```
 
-    Keep this USB backup safe and stored offline.
+---
 
-    If your PC crashes or you migrate to another machine, or you lose your seed words, this is your lifeline.
-    This is a "Satoshi Backup"
+# Backup Complete
 
-Final Reminder
+You have now backed up your Divi wallet files.
 
-If you lose your wallet files or seed words, you lose access to your Divi.
-Backups aren't optional—they're your responsibility. There’s no reset button.
+Keep this USB backup safe and stored offline.
+
+If your PC crashes, you migrate to another machine, or you lose your seed words, this backup may be your lifeline.
+
+This is your **Satoshi Backup**.
+
+---
+
+# Final Reminder
+
+If you lose your wallet files or seed words, you may lose access to your Divi.
+
+Backups are not optional. They are your responsibility.
+
+There is no reset button.
