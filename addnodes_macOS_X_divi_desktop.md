@@ -57,6 +57,12 @@ Now, let’s gather the latest list of active nodes from Divi’s blockchain exp
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ### Step 4: Modify the `divi.conf` File
 
 1. Open **Finder**, then in the top menu, click **Go** and select **Go to Folder**.
