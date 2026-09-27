@@ -90,6 +90,12 @@ This takes you directly to the **AppData Roaming** folder.
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## 4. Find and Open the `DIVI` Folder
 
 Look for the folder named:
