@@ -114,6 +114,12 @@ Self-custody means total responsibility. Treat these seed words as if they were 
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ### **8. Final Steps for Migration**
 
 #### **Close Divi Desktop**
