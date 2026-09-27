@@ -56,6 +56,12 @@ If you add **Vaulted** and **Spendable** together, the sum should match your **t
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## Step 4: Advanced - Digging Deeper with Vault Details  
 
 If you want **more details** about your vault—including **transaction IDs (TXIDs)** that are part of it—run the following command:  
