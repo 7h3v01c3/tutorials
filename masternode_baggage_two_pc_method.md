@@ -55,6 +55,12 @@ Why? Because sometimes it’s easier to declutter your blockchain closet than to
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## The “Mom” Method: Simple and Clean Migration
 
 Let’s keep this simple: **this is just one way to migrate to a new wallet.** It’s designed for users who:
