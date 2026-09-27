@@ -80,6 +80,12 @@ cd ~/Library/Application\ Support/Divi\ Desktop/divid/unpacked/divi_osx
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## Step B: Recover Your Divi Wallet
 
 1. Open the **Terminal** application (you can find it in Applications > Utilities or search using Spotlight).
