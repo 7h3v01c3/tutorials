@@ -37,6 +37,12 @@ Windows users can use the **Divi Wallet Importer** app to streamline the recover
 ### 5. Final Recovery of Your 24-Word Wallet
    - Once all transfers are complete, reopen **Divi Desktop**, go to **Settings** > **Security**, and select **Recover**, then choose **Recover from Seed** to re-import your 24-word wallet.
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## Steps for Mac Users (Manual Command Line Recovery)
 
 Mac users will need to follow a manual command line recovery process, as the Divi Wallet Importer app is not available for Mac. Please follow the [manual recovery tutorial here](https://github.com/7h3v01c3/tutorials/blob/main/osx_divi_wallet_recovery_in_divi_desktop_application.md) to recover each wallet.
