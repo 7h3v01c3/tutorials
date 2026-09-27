@@ -80,6 +80,12 @@ If you use **divi.conf** in the node root, create the node root and its **data**
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## Two-node setup
 
 Two nodes on one machine: useful for testing sends between wallets or multi-node behavior.
