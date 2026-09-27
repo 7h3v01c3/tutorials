@@ -38,6 +38,12 @@ Delete the divitxs.db file:
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## **Step B: Perform the Force Rescan**
 
 1. Open a Run dialog box with `Windows Key + R`.
