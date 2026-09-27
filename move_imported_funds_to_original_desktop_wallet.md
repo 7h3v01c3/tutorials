@@ -132,6 +132,12 @@ Here is the revised **Step 3** with your changes incorporated:
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ### Step 8: Return to Your imported Divi Wallet
 
 1. After validating the address, load your imported Divi Mobile Wallet:
