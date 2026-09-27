@@ -78,6 +78,12 @@ A. Close Divi Desktop Application
 
 ---
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## 💻 Step B: Recover Your Divi Wallet
 
 1. **Open Terminal**:
