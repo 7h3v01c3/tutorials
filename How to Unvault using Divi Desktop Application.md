@@ -46,6 +46,12 @@
      ```
    - Scroll through the output to locate **Vaulted** UTXOs. If you have over **500 UTXOs**, consider performing two separate unvaulting transactions.
 
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
+
 ## Executing Transactions
 
 ### Conduct a Test Transaction
