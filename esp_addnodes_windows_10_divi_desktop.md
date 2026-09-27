@@ -54,6 +54,12 @@ Ahora necesitamos obtener la lista más reciente de nodos activos desde el explo
 
 ---
 
+### Ayuda a mantener estos tutoriales
+
+Estos tutoriales se comparten gratuitamente para ayudar a otros a aprender, resolver problemas y compartir ese conocimiento.
+
+**[Si esto te ayudó, considera apoyar el trabajo y ayudar a que estos tutoriales sigan adelante →](https://thevoice.dev/#donations)**
+
 ### Paso 4: Modificar el archivo `divi.conf`
 
 1. Presiona **Windows Key + R** para abrir el cuadro de diálogo "Ejecutar".
