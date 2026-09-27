@@ -4,7 +4,6 @@ The goal of COIN AGE is to promote fairness. COIN AGE is a critical factor in Di
 
 In this context, the multiplier is determined by the quantity of coins in a UTXO, also known as the weight. The process to calculate the average age of UTXOs, considering their weight, can be formalized as follows:
 
-
 1. **Calculate the Age Percentage for Each UTXO**: Determine the age of each UTXO by examining the number of confirmations. The age maxes out at 10080 confirmations, so the age percentage for each UTXO would be:
 
     $\text{Age percentage} = \frac{\min\left(\text{Number of confirmations for UTXO}, 10080\right)}{10080} \times 100$
@@ -14,6 +13,12 @@ In this context, the multiplier is determined by the quantity of coins in a UTXO
 2. **Calculate the Weighted Age Percentage for Each UTXO**: Multiply the age percentage by the coin quantity for that UTXO:
    
    $\text{Weighted age percentage} = \text{Age percentage} \times \text{Coin quantity}$
+
+### Keep These Tutorials Going
+
+These tutorials are freely shared to help others learn, solve problems, and pass that knowledge on.
+
+**[If this helped you, consider supporting the work and helping keep these tutorials going →](https://thevoice.dev/#donations)**
 
 3. **Calculate the Total Coin Quantity**: Add up the coin quantities for all UTXOs:
 
