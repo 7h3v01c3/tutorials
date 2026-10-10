@@ -143,6 +143,12 @@ These tutorials are freely shared to help others learn, solve problems, and pass
 
 ---
 
+## **Need Help?**
+
+If you encounter issues or need assistance, join the Divi community on Telegram:
+
+- **Telegram**: [https://t.me/diviproject](https://t.me/diviproject)
+
 Stay secure, and happy staking! 😊
 
 ---
